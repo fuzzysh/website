@@ -14,13 +14,11 @@ main {
 	flex-direction: row;
 	justify-content: center;
 	align-items: flex-start;
-
-	
-
 }
 #center{
 	display: flex;
 	flex-direction: column;
+	width: 528px;
 }
 nav{
 	flex-shrink: 1;
@@ -38,6 +36,18 @@ li{
 	border-width: 2px;
 	border-radius: 25px;
 	flex-shrink: 1;
+}
+a{
+	text-decoration: none;
+	color: #FCFCFC;
+}
+a:hover{
+	text-decoration: none;
+	color: purple;
+}
+a:visited{
+	text-decoration: none;
+	color: #FCFCFC;
 }
 p{
 	width: 528px;
@@ -57,4 +67,7 @@ p{
 }
 #buttons{
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+
 }
