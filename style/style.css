@@ -1,5 +1,5 @@
 html{
-	background-image: url(../img/backgrounds/static.gif);
+	background-image: url(../img/backgrounds/38ee005410119812a02be987ba6536b0.gif);
 	color: #FCFCFC;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -24,7 +24,7 @@ nav{
 	flex-shrink: 1;
 	font-size: 1.5rem;
 }
-li{
+.navi{
 	list-style-type: none;
 	margin-bottom: 1.2rem;
 	margin-right: 2rem;
@@ -70,4 +70,8 @@ p{
 	flex-wrap: wrap;
 	justify-content: flex-start;
 
+}
+#buttons>img{
+	width: 88px;
+	height: 31px;
 }
