@@ -1,0 +1,20 @@
+#shrine-container{
+	display: flex;
+	flex-direction: column;
+}
+.shrine-item img{
+	width: 518px;
+	height: 500px;
+	object-fit: cover;
+	object-position: top;
+	border-radius: 5px;
+}
+.shrine-item{
+	font-family: sans-serif;
+	color: black;
+	text-align: center;
+	background-color: #FFFFFFAA;
+	margin-bottom: 5px;
+	padding: 5px;
+	border-radius: 5px;
+}
