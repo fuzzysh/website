@@ -79,7 +79,6 @@ p{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: left;
 }
 .social-item{
 	display: flex;
