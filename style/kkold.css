@@ -1,0 +1,91 @@
+body{
+	background-image: url(../img/backgrounds/matrix.gif);
+}
+h1{
+	font-family: "Duration Book";
+	font-style: italic;
+	font-size: 66px;
+	color: skyblue;
+	text-shadow: 2px 2px lightpink;
+	text-align: center;
+	margin-top: 0;
+	padding-bottom: 50px;
+}
+h2{
+	font-family: "Cageroll Roll";
+	font-size: 77px;
+	text-align: center;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px lightpink;
+	color: skyblue;
+	margin-top: 0;
+}
+header{
+	 /*
+	 * background-image: url(../img/shrines/kk/cloud.png);
+	 * background-position: top left;
+	 * background-size: 40vw;
+	 * background-repeat: no-repeat;
+	 */
+	margin-top: 0;
+}
+main{
+	background-image: url(../img/backgrounds/Static2.gif);
+	color: #719611;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	padding: 60px 10px 60px 10px;
+	text-align: left;
+	font-size: 22px;
+	font-family: "Terminus (TTF)";
+	text-shadow: 1px 1px black;
+}
+img{
+	display: block;
+	border-style: ridge ridge groove groove;
+	border-color: lightpink;
+	border-width: 20px;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 80vh;
+	max-width: 60vw;
+}
+video{
+	display: block;
+	width: 60vw;
+	margin: 0px auto 10px auto;
+	border-style: ridge ridge groove groove;
+	border-color: lightpink;
+	border-width: 20px;
+	border-radius: 15px;
+}
+#kkpls-flex{
+	display: flex;
+	justify-content: center;
+	margin: 0 !important;
+}
+.kkpls{
+	display: block;
+	border-style: none;
+	max-width: 100%;
+
+}
+.kkplsright{
+	transform: scaleX(-1);
+}
+#seeder-right, #seeder-left{
+	position: fixed;
+	bottom: -3px;
+	border-style: none;
+	background-image: none;
+	width: 250px;
+	height: auto;
+}
+#seeder-left{
+	left: -55px;
+}
+#seeder-right{
+	right: -55px;
+	transform: scaleX(-1);
+}

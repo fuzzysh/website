@@ -1,0 +1,75 @@
+body{
+	background-image: url(../img/backgrounds/matrix.gif);
+}
+header{
+	background-image: url(../img/backgrounds/sky.gif);
+	text-align: center;
+	text-shadow: 2px 2px lightpink;
+	color: skyblue;
+	margin: -52px -8px -54px -8px;
+	padding-top: 10px;
+}
+h1{
+	font-family: "Cageroll Roll";
+	font-size: 77px;
+	margin-bottom: 10px;
+}
+h2{
+	font-family: "Duration Book";
+	font-style: italic;
+	font-size: 66px;
+	margin-top: 0;
+	padding-bottom: 50px;
+}
+main{
+	background-image: url(../img/backgrounds/Static2.gif);
+	color: #719611;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	padding: 60px 10px 60px 10px;
+	text-align: left;
+	font-size: 22px;
+	font-family: "Terminus (TTF)";
+	text-shadow: 1px 1px black;
+}
+.media-quote{
+	margin-bottom: 60px;
+}
+.media-quote > img{
+	display: block;
+	border-style: ridge ridge groove groove;
+	border-color: lightpink;
+	border-width: 20px;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 80vh;
+	max-width: 60vw;
+}
+.media-quote > p{
+	font-size: .7em;
+	font-style: italic;
+	text-align: center;
+}
+video{
+	display: block;
+	width: 60vw;
+	margin: 0px auto 10px auto;
+	border-style: ridge ridge groove groove;
+	border-color: lightpink;
+	border-width: 20px;
+	border-radius: 15px;
+}
+.seeder{
+	position: fixed;
+	bottom: -3px;
+	width: 250px;
+	height: auto;
+}
+#seeder-left{
+	left: -55px;
+}
+#seeder-right{
+	right: -55px;
+	transform: scaleX(-1);
+}
