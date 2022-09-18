@@ -86,6 +86,15 @@ a:visited{
 	width: 99px;
 	height: 56px;
 }
+#gifs{
+	line-height: 0;
+	column-count: 4;
+	column-gap: 0px;
+}
+#gifs>img{
+	width: 100% !important;
+	height: auto !important;
+}
 #social-container{
 	display: flex;
 	flex-direction: column;
