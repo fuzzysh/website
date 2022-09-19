@@ -101,6 +101,10 @@ h2{
 	width: 99px;
 	height: 56px;
 }
+#banners > img{
+	width: 100%;
+	height: auto;
+}
 #gifs{
 	line-height: 0;
 	column-count: 4;
