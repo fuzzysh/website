@@ -1,3 +1,15 @@
+@font-face{
+	font-family: "Cageroll Roll";
+	src: url(../fonts/Cageroll-Roll.otf);
+}
+@font-face{
+	font-family: "Duration Book";
+	src: url(../fonts/Duration\ Book.ttf);
+}
+@font-face{
+	font-family: "Terminus (TTF)";
+	src: url(../fonts/TerminusTTF-4.49.2.ttf);
+}
 body{
 	background-image: url(../img/backgrounds/matrix.gif);
 	cursor: url(../img/cursors/TENSHICURSOR.png), crosshair;

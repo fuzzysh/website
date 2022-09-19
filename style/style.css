@@ -1,3 +1,7 @@
+@font-face{
+	font-family: "Wayfarer's Toy Box";
+	src:url(../fonts/wayfarers-toy-box.ttf);
+}
 html{
 	background-image: url(../img/backgrounds/38ee005410119812a02be987ba6536b0.gif);
 	color: #FCFCFC;
@@ -78,8 +82,20 @@ a:visited{
 	margin-left: 2rem;
 	width: 150px;
 }
-h2{
+h4{
 	margin-top: 4rem;
+	margin-bottom: .5rem;
+	font-size: 2rem;
+}
+h4 > a{
+	color: lightblue;
+	font-family: serif;
+}
+h4 > a:hover{
+	color: lightblue;
+}
+h4 > a:visited{
+	color: lightblue;
 }
 #buttons{
 	display: flex;
