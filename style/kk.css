@@ -59,7 +59,7 @@ main{
 	max-height: 80vh;
 	max-width: 60vw;
 }
-.media-quote > p{
+figcaption{
 	font-size: .7em;
 	font-style: italic;
 	text-align: center;
