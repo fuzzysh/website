@@ -59,7 +59,7 @@ h3 > a:hover{
 }
 a{
 	text-decoration: none;
-	color: #FCFCFC;
+	color: yellow;
 }
 a:hover{
 	text-decoration: none;
@@ -155,4 +155,9 @@ h4 > a:visited{
 .social-item > img{
 	width: 88px;
 	height: 31px;
+}
+#counter{
+	margin-top: 5px;
+	display: flex;
+	justify-content: center;
 }

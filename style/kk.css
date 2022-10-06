@@ -12,7 +12,7 @@
 }
 body{
 	background-image: url(../img/backgrounds/matrix.gif);
-	cursor: url(../img/cursors/TENSHICURSOR.png), crosshair;
+	cursor: url(../img/cursors/TENSHICURSOR.png), default;
 }
 header{
 	background-image: url(../img/backgrounds/sky.gif);
