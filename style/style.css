@@ -161,3 +161,11 @@ h4 > a:visited{
 	display: flex;
 	justify-content: center;
 }
+.gif-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+blockquote{
+	font-family: monospace;
+}
