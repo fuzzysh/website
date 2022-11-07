@@ -111,6 +111,7 @@ h4 > a:visited{
 #buttons>img{
 	width: 88px;
 	height: 31px;
+	background-color: rgba(0, 0, 0, 0.0);
 }
 #stamps{
 	display: flex;
@@ -121,10 +122,12 @@ h4 > a:visited{
 #stamps>img{
 	width: 99px;
 	height: 56px;
+	background-color: rgba(0, 0, 0, 0.0);
 }
 #banners > img{
 	width: 100%;
 	height: auto;
+	background-color: rgba(0, 0, 0, 0.0);
 }
 #gifs{
 	line-height: 0;
@@ -134,6 +137,7 @@ h4 > a:visited{
 #gifs>img{
 	width: 100% !important;
 	height: auto !important;
+	background-color: rgba(0, 0, 0, 0.0);
 }
 #social-container{
 	display: flex;
@@ -165,6 +169,9 @@ h4 > a:visited{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+.gif-container > img{
+	background-color: skyblue;
 }
 blockquote{
 	font-family: monospace;
