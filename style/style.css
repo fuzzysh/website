@@ -24,6 +24,12 @@ main {
 	flex-direction: column;
 	width: 528px;
 }
+#fediring{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: -10px;
+}
 nav{
 	flex-shrink: 1;
 	font-size: 1.5rem;
