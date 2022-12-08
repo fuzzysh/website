@@ -1,0 +1,203 @@
+@font-face{
+	font-family: "Wayfarer's Toy Box";
+	src:url(../fonts/wayfarers-toy-box.ttf);
+}
+@font-face {
+	font-family: "Comic Relief";
+	src: url(../fonts/"Comic Relief");
+
+}
+@font-face {
+	font-family: "FT88 Italic";
+	src: url(../fonts/"FT88 Italic");
+}
+@font-face {
+	font-family: prociono;
+	src: url(../fonts/prociono);
+}
+
+html{
+	background-image: url(../img/backgrounds/38ee005410119812a02be987ba6536b0.gif);
+	color: #FCFCFC;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+	text-align: center;
+	font-family: "FT88 Italic", "Wayfarer's Toy Box";
+	font-size: 1.25em;
+	padding-top: 10px;
+}
+main {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+}
+#center{
+	display: flex;
+	flex-direction: column;
+	width: 528px;
+}
+#fediring{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: -10px;
+}
+nav{
+	flex-shrink: 1;
+	font-family: prociono, serif;
+	font-size: 1.5rem;
+}
+.navi{
+	list-style-type: none;
+	margin-bottom: 1.2rem;
+	margin-right: 2rem;
+	padding: 0px 6px 0px 6px;
+	background-color: #303030;
+	text-align: center;
+	border-style: solid;
+	border-color: #E0E0E0;
+	border-width: 2px;
+	border-radius: 25px;
+	background-image: url("../img/backgrounds/purple.jpg");
+}
+.navi:hover{
+	text-shadow: black 2px 2px;
+}
+h3{
+	text-align: center;
+	font-family: "Wayfarer's Toy Box";
+
+}
+h3 > a{
+	margin: 7px;
+}
+h3 > a:hover{
+	color: #FFFF00;
+	text-shadow: 4px 4px black;
+}
+a{
+	text-decoration: none;
+	color: yellow;
+}
+a:hover{
+	text-decoration: none;
+	color: purple;
+}
+a:visited{
+	text-decoration: none;
+	color: yellow;
+	text-shadow: black 1px 1px;
+}
+.blurb{
+	width: 528px;
+	background-color: #303030;
+	font-family: "Comic Relief", serif;
+	font-size: 1.2em;
+	border-style: solid;
+	border-color: #E0E0E0;
+	border-radius: 25px;
+	border-width: 2px;
+	padding: 10px;
+}
+#blinkies{
+	flex-shrink: 1;
+	display: flex;
+	flex-direction: column;
+	margin-left: 2rem;
+	width: 150px;
+}
+h4{
+	margin-top: 4rem;
+	margin-bottom: .5rem;
+	font-size: 2rem;
+}
+h4 > a{
+	color: lightblue;
+	font-family: serif;
+}
+h4 > a:hover{
+	color: lightblue;
+}
+h4 > a:visited{
+	color: lightblue;
+}
+#buttons{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+
+}
+#buttons>img{
+	width: 88px;
+	height: 31px;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+#stamps{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	gap: 8px;
+}
+#stamps>img{
+	width: 99px;
+	height: 56px;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+#banners > img{
+	width: 100%;
+	height: auto;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+#gifs{
+	line-height: 0;
+	column-count: 4;
+	column-gap: 0px;
+}
+#gifs>img{
+	width: 100% !important;
+	height: auto !important;
+	background-color: rgba(0, 0, 0, 0.0);
+}
+#social-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.social-item{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.social-item > p{
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 3px;
+	margin: 0;
+	color: yellow;
+}
+.social-item > img{
+	width: 88px;
+	height: 31px;
+}
+#counter{
+	margin-top: 5px;
+	display: flex;
+	justify-content: center;
+}
+.gif-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.gif-container > img{
+	margin-top: 5px;
+	width: 420px;
+	height: 236px;
+	background-color: rgba(0, 0, 55, 0.0);
+}
+blockquote{
+	font-family: monospace;
+}
