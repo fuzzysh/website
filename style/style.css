@@ -2,6 +2,20 @@
 	font-family: "Wayfarer's Toy Box";
 	src:url(../fonts/wayfarers-toy-box.ttf);
 }
+@font-face {
+	font-family: "Comic Relief";
+	src: url(../fonts/"Comic Relief");
+
+}
+@font-face {
+	font-family: "FT88 Italic";
+	src: url(../fonts/"FT88 Italic");
+}
+@font-face {
+	font-family: prociono;
+	src: url(../fonts/prociono);
+}
+
 html{
 	background-image: url(../img/backgrounds/38ee005410119812a02be987ba6536b0.gif);
 	color: #FCFCFC;
@@ -9,7 +23,8 @@ html{
 }
 header{
 	text-align: center;
-	font-family: "Wayfarer's Toy Box";
+	font-family: "FT88 Italic", "Wayfarer's Toy Box";
+	font-size: 1.25em;
 	padding-top: 10px;
 }
 main {
@@ -32,20 +47,20 @@ main {
 }
 nav{
 	flex-shrink: 1;
+	font-family: prociono, serif;
 	font-size: 1.5rem;
 }
 .navi{
 	list-style-type: none;
 	margin-bottom: 1.2rem;
 	margin-right: 2rem;
-	padding: 0px 6px 2px 6px;
+	padding: 0px 6px 0px 6px;
 	background-color: #303030;
 	text-align: center;
 	border-style: solid;
 	border-color: #E0E0E0;
 	border-width: 2px;
 	border-radius: 25px;
-	flex-shrink: 1;
 	background-image: url("../img/backgrounds/purple.jpg");
 }
 .navi:hover{
@@ -79,7 +94,8 @@ a:visited{
 .blurb{
 	width: 528px;
 	background-color: #303030;
-	font-size: 1.2rem;
+	font-family: "Comic Relief", serif;
+	font-size: 1.2em;
 	border-style: solid;
 	border-color: #E0E0E0;
 	border-radius: 25px;
