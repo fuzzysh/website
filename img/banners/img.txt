@@ -1,0 +1,8 @@
+<img src="img/banners/firefoxbanner.png" alt="">
+<img src="img/banners/gamecubeuser.gif" alt="">
+<img src="img/banners/kitties.gif" alt="">
+<img src="img/banners/neopets.png" alt="">
+<img src="img/banners/opensource.gif" alt="">
+<img src="img/banners/scrollbar.jpg" alt="">
+<img src="img/banners/static.gif" alt="">
+<img src="img/banners/webmaster.png" alt="">
