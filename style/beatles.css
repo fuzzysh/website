@@ -23,3 +23,8 @@ img{
 	object-fit: cover;
 	object-position: top;
 }
+audio{
+	position: absolute;
+	top: 21.44px;
+	left: 21.44px;
+}
