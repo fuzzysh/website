@@ -1,30 +1,35 @@
-html{
-	background-image: url("../img/anti/beatles/shittyfuckingalbum.jpg");
-	background-size: 25%;
+html {
+        background-image: url("../img/anti/beatles/shittyfuckingalbum.jpg");
+        background-size: 25%;
 }
-body{
-	background-color: #00000051;
-	color: white;
-	margin-left: 25vw;
-	margin-right: 25vw;
+
+body {
+        background-color: #00000051;
+        color: white;
+        margin-left: 25vw;
+        margin-right: 25vw;
 }
-header{
-	text-align: center;
+
+header {
+        text-align: center;
 }
-section{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+
+section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 }
-img{
-	width: 700px;
-	height: 700px;
-	object-fit: cover;
-	object-position: top;
+
+img {
+        width: 700px;
+        height: 700px;
+        object-fit: cover;
+        object-position: top;
 }
-audio{
-	position: absolute;
-	top: 21.44px;
-	left: 21.44px;
+
+audio {
+        position: absolute;
+        top: 21.44px;
+        left: 21.44px;
 }

@@ -1,122 +1,173 @@
-@font-face{
-	font-family: "Cageroll Roll";
-	src: url(../fonts/Cageroll-Roll.otf);
-}
-@font-face{
-	font-family: "Duration Book";
-	src: url(../fonts/Duration\ Book.ttf);
-}
-@font-face{
-	font-family: "Terminus (TTF)";
-	src: url(../fonts/TerminusTTF-4.49.2.ttf);
-}
-body{
-	background-image: url(../img/backgrounds/matrix.gif);
-	cursor: url(../img/cursors/TENSHICURSOR.png), default;
-}
-header{
-	background-image: url(../img/backgrounds/sky.gif);
-	text-align: center;
-	text-shadow: 2px 2px lightpink;
-	color: skyblue;
-	margin: -52px -8px -54px -8px;
-	padding-top: 10px;
-}
-header *:hover{
-	animation: shake 0.2s;
-	animation-iteration-count: infinite;
+@font-face {
+        font-family: "Cageroll Roll";
+        src: url(../fonts/Cageroll-Roll.otf);
 }
 
-h1{
-	font-family: "Cageroll Roll";
-	font-size: 77px;
-	margin-bottom: 10px;
+@font-face {
+        font-family: "Duration Book";
+        src: url(../fonts/Duration\ Book.ttf);
 }
-h2{
-	font-family: "Duration Book";
-	font-style: italic;
-	font-size: 66px;
-	margin-top: 0;
-	padding-bottom: 50px;
+
+@font-face {
+        font-family: "Terminus (TTF)";
+        src: url(../fonts/TerminusTTF-4.49.2.ttf);
 }
-main, footer{
-	background-image: url(../img/backgrounds/Static2.gif);
-	color: #719611;
-	margin-left: 15vw;
-	margin-right: 15vw;
-	padding: 60px 10px 60px 10px;
-	text-align: left;
-	font-size: 22px;
-	font-family: "Terminus (TTF)";
-	text-shadow: 1px 1px black;
+
+body {
+        background-image: url(../img/backgrounds/matrix.gif);
+        cursor: url(../img/cursors/TENSHICURSOR.png), default;
 }
-.body-text{
-	margin-left: 8vw;
-	margin-right: 8vw;
-	margin-bottom: 50px;
+
+header {
+        background-image: url(../img/backgrounds/sky.gif);
+        text-align: center;
+        text-shadow: 2px 2px lightpink;
+        color: skyblue;
+        margin: -52px -8px -54px -8px;
+        padding-top: 10px;
 }
-.media-quote{
-	margin-bottom: 60px;
+
+header *:hover {
+        animation: shake 0.2s;
+        animation-iteration-count: infinite;
 }
-.media-quote > img{
-	display: block;
-	border-style: ridge ridge groove groove;
-	border-color: lightpink;
-	border-width: 20px;
-	border-radius: 15px;
-	margin-left: auto;
-	margin-right: auto;
-	max-height: 80vh;
-	max-width: 60vw;
+
+h1 {
+        font-family: "Cageroll Roll";
+        font-size: 77px;
+        margin-bottom: 10px;
 }
-figcaption{
-	font-size: .7em;
-	font-style: italic;
-	text-align: center;
+
+h2 {
+        font-family: "Duration Book";
+        font-style: italic;
+        font-size: 66px;
+        margin-top: 0;
+        padding-bottom: 50px;
 }
-video{
-	display: block;
-	width: 60vw;
-	margin: 0px auto 10px auto;
-	border-style: ridge ridge groove groove;
-	border-color: lightpink;
-	border-width: 20px;
-	border-radius: 15px;
-	background-color: white;
+
+main,
+footer {
+        background-image: url(../img/backgrounds/Static2.gif);
+        color: #719611;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        padding: 60px 10px 60px 10px;
+        text-align: left;
+        font-size: 22px;
+        font-family: "Terminus (TTF)";
+        text-shadow: 1px 1px black;
 }
-footer{
-	padding-left: 50px;
+
+.body-text {
+        margin-left: 8vw;
+        margin-right: 8vw;
+        margin-bottom: 50px;
 }
-footer a{
-	color: skyblue;
+
+.media-quote {
+        margin-bottom: 60px;
 }
-footer a:visited{
-	color: lightpink;
+
+.media-quote>img {
+        display: block;
+        border-style: ridge ridge groove groove;
+        border-color: lightpink;
+        border-width: 20px;
+        border-radius: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 80vh;
+        max-width: 60vw;
 }
-.seeder{
-	position: fixed;
-	bottom: -3px;
-	width: 250px;
-	height: auto;
+
+figcaption {
+        font-size: .7em;
+        font-style: italic;
+        text-align: center;
 }
-#seeder-left{
-	left: -55px;
+
+video {
+        display: block;
+        width: 60vw;
+        margin: 0px auto 10px auto;
+        border-style: ridge ridge groove groove;
+        border-color: lightpink;
+        border-width: 20px;
+        border-radius: 15px;
+        background-color: white;
 }
-#seeder-right{
-	right: -55px;
-	transform: scaleX(-1);
+
+footer {
+        padding-left: 50px;
+}
+
+footer a {
+        color: skyblue;
+}
+
+footer a:visited {
+        color: lightpink;
+}
+
+.seeder {
+        position: fixed;
+        bottom: -3px;
+        width: 250px;
+        height: auto;
+}
+
+#seeder-left {
+        left: -55px;
+}
+
+#seeder-right {
+        right: -55px;
+        transform: scaleX(-1);
 }
 
 @keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(3px, 1px) rotate(-1deg); }
-  80% { transform: translate(-1px, -1px) rotate(1deg); }
-  90% { transform: translate(1px, 2px) rotate(0deg); }
-  100% { transform: translate(1px, -2px) rotate(-1deg); }
+        0% {
+                transform: translate(1px, 1px) rotate(0deg);
+        }
+
+        10% {
+                transform: translate(-1px, -2px) rotate(-1deg);
+        }
+
+        20% {
+                transform: translate(-3px, 0px) rotate(1deg);
+        }
+
+        30% {
+                transform: translate(3px, 2px) rotate(0deg);
+        }
+
+        40% {
+                transform: translate(1px, -1px) rotate(1deg);
+        }
+
+        50% {
+                transform: translate(-1px, 2px) rotate(-1deg);
+        }
+
+        60% {
+                transform: translate(-3px, 1px) rotate(0deg);
+        }
+
+        70% {
+                transform: translate(3px, 1px) rotate(-1deg);
+        }
+
+        80% {
+                transform: translate(-1px, -1px) rotate(1deg);
+        }
+
+        90% {
+                transform: translate(1px, 2px) rotate(0deg);
+        }
+
+        100% {
+                transform: translate(1px, -2px) rotate(-1deg);
+        }
 }

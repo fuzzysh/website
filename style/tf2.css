@@ -1,40 +1,48 @@
-body{
-	margin: 0;
-}
-header > img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	height: 11vh;
-}
-main{
-	display: grid;
-	grid-auto-flow: column;
-	grid-auto-columns: 1fr;
-}
-section{
-	height: 89vh;
-	background-position: center;
-	background-size: cover;
-}
-section:hover{
-	width: 66vw;
-}
-#left{
-	background-image: url("../img/shrines/tf2/wallpaper_12v12fight_2650x1600.jpg");
-}
-#center{
-	background-image: url("../img/shrines/tf2/worldwarwednesday.jpg");
-}
-#right{
-	background-image: url("../img/shrines/tf2/expiration_date_09.jpg");
-}
-h1{
-	padding-left: 10px;
-}
-p{
-	padding-left: 20px;
-	color: var(--quality-strange) !important;
-	text-shadow: black 1px 1px;
+body {
+        margin: 0;
 }
 
+header>img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 11vh;
+}
+
+main {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+}
+
+section {
+        height: 89vh;
+        background-position: center;
+        background-size: cover;
+}
+
+section:hover {
+        width: 66vw;
+}
+
+#left {
+        background-image: url("../img/shrines/tf2/wallpaper_12v12fight_2650x1600.jpg");
+}
+
+#center {
+        background-image: url("../img/shrines/tf2/worldwarwednesday.jpg");
+}
+
+#right {
+        background-image: url("../img/shrines/tf2/expiration_date_09.jpg");
+}
+
+h1 {
+        padding-left: 10px;
+}
+
+p {
+        padding-left: 20px;
+        color: var(--quality-strange) !important;
+        text-shadow: black 1px 1px;
+}
