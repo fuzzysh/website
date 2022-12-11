@@ -13,17 +13,17 @@
 
 @font-face {
         font-family: "Comic Relief";
-        src: url(../fonts/"Comic Relief");
+        src: url(../fonts/ComicRelief.ttf);
 }
 
 @font-face {
         font-family: "FT88 Italic";
-        src: url(../fonts/"FT88 Italic");
+        src: url(../fonts/FT88-Italic.ttf);
 }
 
 @font-face {
         font-family: "Prociono";
-        src: url(../fonts/prociono);
+        src: url(../fonts/Prociono.ttf);
 }
 
 /*
