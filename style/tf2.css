@@ -2,11 +2,18 @@ body {
         margin: 0;
 }
 
-header>img {
+div>img {
         display: block;
         margin-left: auto;
         margin-right: auto;
         height: 11vh;
+}
+
+div>img:hover {
+        position: relative;
+        left: 5px;
+        top: 2px;
+        filter: drop-shadow(30px 10px 4px black);
 }
 
 main {
@@ -19,6 +26,7 @@ section {
         height: 89vh;
         background-position: center;
         background-size: cover;
+        z-index: 1;
 }
 
 section:hover {
