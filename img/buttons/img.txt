@@ -1,7 +1,6 @@
 <img src="img/buttons/2001.gif" alt="">
 <img src="img/buttons/2006.gif" alt="">
 <img src="img/buttons/2019.gif" alt="">
-<img src="img/buttons/404.gif" alt="">
 <img src="img/buttons/6-16-19-shithole.gif" alt="">
 <img src="img/buttons/88x31-micro-button.gif" alt="">
 <img src="img/buttons/88x31.png" alt="">
@@ -10,6 +9,7 @@
 <img src="img/buttons/88x31gold.gif" alt="">
 <img src="img/buttons/88x31greenmarble.gif" alt="">
 <img src="img/buttons/88x31pinkmarble.gif" alt="">
+<img src="img/buttons/88x31pinkmarble.gif~" alt="">
 <img src="img/buttons/88x31whitemarble.gif" alt="">
 <img src="img/buttons/Button_InternetExplerror.gif" alt="">
 <img src="img/buttons/DeadNow.jpg" alt="">
@@ -114,6 +114,7 @@
 <img src="img/buttons/falcom.gif" alt="">
 <img src="img/buttons/fastweb.gif" alt="">
 <img src="img/buttons/fbody.gif" alt="">
+<img src="img/buttons/fediring.png" alt="">
 <img src="img/buttons/ffrediscover.gif" alt="">
 <img src="img/buttons/fftake.gif" alt="">
 <img src="img/buttons/fgbut18.gif" alt="">
@@ -131,9 +132,16 @@
 <img src="img/buttons/freeinternet.gif" alt="">
 <img src="img/buttons/freencool.gif" alt="">
 <img src="img/buttons/freeware.gif" alt="">
+<img src="img/buttons/fubutton14.png" alt="">
 <img src="img/buttons/fubutton27.gif" alt="">
+<img src="img/buttons/fubutton29.png" alt="">
+<img src="img/buttons/fubutton30.png" alt="">
 <img src="img/buttons/fubutton32.png" alt="">
+<img src="img/buttons/fubutton34.png" alt="">
+<img src="img/buttons/fubutton35.png" alt="">
+<img src="img/buttons/fubutton38.gif" alt="">
 <img src="img/buttons/fubutton40.gif" alt="">
+<img src="img/buttons/fubutton42.gif" alt="">
 <img src="img/buttons/fubutton6.gif" alt="">
 <img src="img/buttons/fuck-nfts.gif" alt="">
 <img src="img/buttons/fuckfacebook.png" alt="">
@@ -208,6 +216,7 @@
 <img src="img/buttons/kawaiicutebarcode.gif" alt="">
 <img src="img/buttons/knbutton.gif" alt="">
 <img src="img/buttons/leavetwitterjoinmasto.gif" alt="">
+<img src="img/buttons/leprdbutton.png" alt="">
 <img src="img/buttons/linux_now.gif" alt="">
 <img src="img/buttons/linux_powered.gif" alt="">
 <img src="img/buttons/linuxnow.gif" alt="">
@@ -222,6 +231,7 @@
 <img src="img/buttons/masto.gif" alt="">
 <img src="img/buttons/mastodon.gif" alt="">
 <img src="img/buttons/mastodon_button_1.gif" alt="">
+<img src="img/buttons/matrixbutton.gif" alt="">
 <img src="img/buttons/miaow.gif" alt="">
 <img src="img/buttons/miku.gif" alt="">
 <img src="img/buttons/miku2.gif" alt="">
@@ -255,6 +265,7 @@
 <img src="img/buttons/nocookie.gif" alt="">
 <img src="img/buttons/nofuckingthanks.gif" alt="">
 <img src="img/buttons/nonbinary.png" alt="">
+<img src="img/buttons/notabugbutton.png" alt="">
 <img src="img/buttons/noweb3.gif" alt="">
 <img src="img/buttons/nwk.jpeg" alt="">
 <img src="img/buttons/oldfiles.gif" alt="">
@@ -298,6 +309,7 @@
 <img src="img/buttons/sign_guestbook1.gif" alt="">
 <img src="img/buttons/skirt.gif" alt="">
 <img src="img/buttons/slash.gif" alt="">
+<img src="img/buttons/slimesnow.png" alt="">
 <img src="img/buttons/slowsayso.gif" alt="">
 <img src="img/buttons/snooop.gif" alt="">
 <img src="img/buttons/solitaire.png" alt="">
@@ -326,7 +338,6 @@
 <img src="img/buttons/tohell.gif" alt="">
 <img src="img/buttons/trans.png" alt="">
 <img src="img/buttons/trustme.gif" alt="">
-<img src="img/buttons/tumblr_picp47hhuG1wgsqgoo6_250.gif" alt="">
 <img src="img/buttons/tumblrpocalypse_button_8.png" alt="">
 <img src="img/buttons/tummy.gif" alt="">
 <img src="img/buttons/ublock-now.png" alt="">
