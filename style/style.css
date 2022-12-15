@@ -163,19 +163,22 @@ h4>a:visited {
         display: flex;
         justify-content: center;
 }
-#linkback{
-	margin-top: 10px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+
+#linkback {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 }
-#linkback > img {
-	width: 88px;
+
+#linkback>img {
+        width: 88px;
 }
-textarea{
-	outline: none;
-	resize: none;
+
+textarea {
+        outline: none;
+        resize: none;
 }
 
 /*
@@ -290,32 +293,36 @@ a:visited {
 * ╚═╝     ╚═╝   ╚═╝        ╚═════╝ ╚═╝╚═╝     ╚══════╝
 */
 .episode {
-	display: flex;
-	flex-direction: column;
-	justify-content: start;
-	max-width: 528px;
-	gap: 3px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        max-width: 528px;
+        gap: 3px;
 }
-figure{
-	display: flex;
-	margin: 40px 0px -20px 0px;
-	
+
+figure {
+        display: flex;
+        margin: 40px 0px -20px 0px;
+
 }
+
 h6 {
         background-color: rgba(0, 0, 0, 0.6);
-	font-size: .9em;
-	padding: 0px 4px 0px 4px;
-	margin: 0px 0px 0px 0px;
-	gap: 0;
+        font-size: .9em;
+        padding: 0px 4px 0px 4px;
+        margin: 0px 0px 0px 0px;
+        gap: 0;
 }
+
 .animegif-container {
-	display: flex;
-	flex-direction: column;
-	gap: 5px;
-	margin: 20px 0px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin: 20px 0px 0px 0px;
 }
-.animegif-container > img {
-	border: groove;
-	border-width: 6px;
-	border-color: plum;
+
+.animegif-container>img {
+        border: groove;
+        border-width: 6px;
+        border-color: plum;
 }
