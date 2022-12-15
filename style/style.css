@@ -9,25 +9,25 @@
 @font-face {
         font-family: "Wayfarer's Toy Box";
         src: url(../fonts/wayfarers-toy-box.ttf);
-	font-display: swap;
+        font-display: swap;
 }
 
 @font-face {
         font-family: "Comic Relief";
         src: url(../fonts/ComicRelief.ttf);
-	font-display: swap;
+        font-display: swap;
 }
 
 @font-face {
         font-family: "FT88 Italic";
         src: url(../fonts/FT88-Italic.ttf);
-	font-display: swap;
+        font-display: swap;
 }
 
 @font-face {
         font-family: "Prociono";
         src: url(../fonts/Prociono.ttf);
-	font-display: swap;
+        font-display: swap;
 }
 
 /*
@@ -39,9 +39,11 @@
 * ╚═╝  ╚═══╝╚═╝  ╚═╝  ╚═══╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
 */
 nav {
-        flex-shrink: 1;
+        display: flex;
+        flex-direction: column;
         font-family: "Prociono", serif;
         font-size: 1.5rem;
+
 }
 
 .navi {
@@ -55,6 +57,8 @@ nav {
         border-color: #E0E0E0;
         border-width: 2px;
         border-radius: 25px;
+	width: 119.433px;
+	height: 31px;
         background-image: url("../img/backgrounds/purple.jpg");
 }
 
@@ -183,6 +187,7 @@ h4>a:visited {
 textarea {
         outline: none;
         resize: none;
+	overflow-y: hidden;
 }
 
 /*
@@ -329,4 +334,6 @@ h6 {
         border: groove;
         border-width: 6px;
         border-color: plum;
+	width: 516px;
+	height: 290px;
 }
