@@ -9,21 +9,25 @@
 @font-face {
         font-family: "Wayfarer's Toy Box";
         src: url(../fonts/wayfarers-toy-box.ttf);
+	font-display: swap;
 }
 
 @font-face {
         font-family: "Comic Relief";
         src: url(../fonts/ComicRelief.ttf);
+	font-display: swap;
 }
 
 @font-face {
         font-family: "FT88 Italic";
         src: url(../fonts/FT88-Italic.ttf);
+	font-display: swap;
 }
 
 @font-face {
         font-family: "Prociono";
         src: url(../fonts/Prociono.ttf);
+	font-display: swap;
 }
 
 /*
