@@ -159,7 +159,7 @@ h4>a:visited {
 }
 
 #counter {
-        margin-top: 5px;
+        margin-top: 10px;
         display: flex;
         justify-content: center;
 }
@@ -176,8 +176,6 @@ h4>a:visited {
 textarea{
 	outline: none;
 	resize: none;
-	overflow: auto;
-
 }
 
 /*
