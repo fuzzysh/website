@@ -163,6 +163,22 @@ h4>a:visited {
         display: flex;
         justify-content: center;
 }
+#linkback{
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#linkback > img {
+	width: 88px;
+}
+textarea{
+	outline: none;
+	resize: none;
+	overflow: auto;
+
+}
 
 /*
 * ██████╗ ███████╗███╗   ██╗███████╗██████╗  █████╗ ██╗     
