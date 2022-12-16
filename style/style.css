@@ -57,8 +57,8 @@ nav {
         border-color: #E0E0E0;
         border-width: 2px;
         border-radius: 25px;
-	width: 119.433px;
-	height: 31px;
+        width: 119.433px;
+        height: 31px;
         background-image: url("../img/backgrounds/purple.jpg");
 }
 
@@ -185,9 +185,13 @@ h4>a:visited {
 }
 
 textarea {
+        background-color: rgba(0, 0, 0, 0.4);
+        border: none;
+        color: yellow;
+        font-family: "Comic Relief", sans-serif;
         outline: none;
         resize: none;
-	overflow-y: hidden;
+        overflow-y: hidden;
 }
 
 /*
@@ -334,6 +338,6 @@ h6 {
         border: groove;
         border-width: 6px;
         border-color: plum;
-	width: 516px;
-	height: auto;
+        width: 516px;
+        height: auto;
 }
