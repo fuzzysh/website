@@ -40,6 +40,9 @@
 */
 nav {
         display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
         flex-direction: column;
         font-family: "Prociono", serif;
         font-size: 1.5rem;
@@ -51,19 +54,21 @@ nav {
         margin-bottom: 1.2rem;
         margin-right: 2rem;
         padding: 0px 6px 0px 6px;
-        background-color: #303030;
+        background-color: grey;
         text-align: center;
-        border-style: solid;
+        border-style: outset;
         border-color: #E0E0E0;
-        border-width: 2px;
-        border-radius: 25px;
+        border-width: 3px;
         width: 119.433px;
         height: 31px;
+	line-height: 27px;
         background-image: url("../img/backgrounds/purple.jpg");
 }
 
 .navi:hover {
-        text-shadow: black 2px 2px;
+	border-style: inset;
+	color: #f2f20d;
+	font-size: 1.47rem;
 }
 
 /*
@@ -79,6 +84,7 @@ header {
         font-family: "FT88 Italic", "Wayfarer's Toy Box", serif;
         font-size: 1.25em;
         padding-top: 10px;
+	margin-bottom: 50px;
 }
 
 h3 {
@@ -131,14 +137,14 @@ h4>a:visited {
 
 .blurb {
         max-width: 528px;
-        background-color: #303030;
+        background-color: rgba(0, 0, 0, 0.4);
         font-family: "Comic Relief", serif;
         font-size: 1.2em;
-        border-style: solid;
+        border-style: outset;
         border-color: #E0E0E0;
-        border-radius: 25px;
-        border-width: 2px;
+        border-width: 3px;
         padding: 10px;
+	margin-top: 0;
 }
 
 #social-container {
@@ -185,6 +191,7 @@ h4>a:visited {
 }
 
 textarea {
+	display: flex;
         background-color: rgba(0, 0, 0, 0.4);
         border: none;
         color: yellow;
@@ -192,6 +199,7 @@ textarea {
         outline: none;
         resize: none;
         overflow-y: hidden;
+	align-items: center;
 }
 
 /*
