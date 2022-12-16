@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>fuzzy's homepage :)</title>
+		<link rel=stylesheet type=text/css href=main.css>
+		<link rel=stylesheet type=text/css href=widescreen.css>
+		<link rel=stylesheet type=text/css href=thin.css>
+		<link rel=stylesheet type=text/css href=phone.css>
+	</head>
+	<body>
+		<header>
+			<h1>fuzzy's homepage =]</h1>
+			<section id="time"></section>
+			<form id="search_form" method="get" action="https://duckduckgo.com/?q=">
+				<input type="search" name="q" placeholder="search" aria-label="search">
+				<button type="submit" label="search!" aria-label="search!">Search!</button>
+			</form>
+		</header>
+		<section id="quicklinks">
+			<ul>
+				<li><a href="https://p.fuzzy.click">Fedi</a></li>
+				<li><a href="https://discord.com/app">Discord</a></li>
+				<li><a href="https://wiki.archlinux.org">Arch Wiki</a></li>
+				<li><a href="https://notabug.org">NotABug</a></li>
+				<li><a href="https://home.fuzzy.click">Home Assistant</a></li>
+				<li><a href="https://jelly.fuzzy.click">Jellyfin</a></li>
+			</ul>
+				<img src="startpage-pics/robotsamuraigirl.jpg">
+		</section>
+
+	<script>
+		var time = document.querySelector('#time');
+
+		function updateClock() {
+			// Get the current time, day , month and year
+			var now = new Date();
+			var hours = now.getHours();
+			var minutes = now.getMinutes();
+			var date = now.getDate();
+
+			// format date and time
+			var period = hours < 12 ? 'AM' : 'PM';
+			hours = hours % 12 || 12;
+			minutes = minutes < 10 ? '0' + minutes : minutes;
+
+			// display date and time
+			time.innerHTML = hours + ':' + minutes + " " + period;
+		}
+		updateClock();
+		setInterval(updateClock, 1000);
+	</script>
+	</body>
+</html>
