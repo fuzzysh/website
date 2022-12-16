@@ -68,7 +68,9 @@ nav {
 .navi:hover {
 	border-style: inset;
 	color: #f2f20d;
-	font-size: 1.47rem;
+	line-height: 29px;
+	text-indent: 2px;
+	overflow: visible;
 }
 
 /*
