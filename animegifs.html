@@ -24,6 +24,14 @@
                         <a class="navi" href="guestbook.html">guestbook</a>
                 </nav>
                 <section id="center">
+			<section class="blurb">
+				<p>i make gifs for some anime if i think it's good to make a gif out of sometimes <br>i make them using <a href="ffmpeg.org">ffmpeg </a></p>
+				<blockquote style="font-family: monospace;">ffmpeg -i <span style="color: #42C0FB;">input.mp4</span> -map 0:v -ss 00:00.00 -t 00 <span style="color: red;">output.mp4</span></blockquote>
+				<blockquote style="font-family: monospace;">ffmpeg -i <span style="color: red;">output.mp4 </span>-filter_complex "[0:v] fps=24,scale=w=480:h=-1,split [a][b];[a] palettegen=stats_mode=full [p];[b][p] paletteuse=dither=bayer:bayer_scale=3" <span style="color: chartreuse;">output.gif</span></blockquote>
+				<p>and then I'll optimize the gif using <a href="https://github.com/kohler/gifsicle">gifsicle</a></p>
+				<blockquote style="font-family: monospace;">gifsicle --batch --lossy <span style="color: chartreuse;">output.gif</span></blockquote>
+				<p>ill write a real blog post on my process one day</p>
+			</section>
                         <section class="episode">
                                 <figure>
                                         <h6>Chainsaw Man episode 4 by MAPPA</h6>
