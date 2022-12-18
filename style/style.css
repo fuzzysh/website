@@ -46,13 +46,13 @@ nav {
         flex-direction: column;
         font-family: "Prociono", serif;
         font-size: 1.5rem;
+        margin-right: 2rem;
 
 }
 
 .navi {
         list-style-type: none;
         margin-bottom: 1.2rem;
-        margin-right: 2rem;
         padding: 0px 6px 0px 6px;
         background-color: grey;
         text-align: center;
@@ -105,7 +105,7 @@ h3>a:hover {
 }
 
 h4 {
-        margin-top: 4rem;
+        margin-top: 2rem;
         margin-bottom: .5rem;
         font-size: 2rem;
 }
