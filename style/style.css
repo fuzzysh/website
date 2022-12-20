@@ -352,3 +352,15 @@ h6 {
         width: 516px;
         height: auto;
 }
+
+/*
+ * BUCKETLIST
+ */ 
+#bucketlist{
+	list-style-position: inside;
+	font-size: 1.4em;
+	list-style-image: url('../img/gifs/carbunclecompilesite.gif');
+}
+.bucketitem{
+	padding-bottom: 7px;
+}
