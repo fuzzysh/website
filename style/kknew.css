@@ -63,10 +63,6 @@ h2 {
 	margin-top: -25px;
 }
 
-h3, a, p, small{
-	align-self: flex-start;
-}
-
 /*
 * body
 * 
@@ -91,6 +87,11 @@ main, footer {
 	padding: 0vw 5vw 0vw 5vw;
 }
 
+h3, p, small, ul{
+	align-self: flex-start;
+	margin: 0vw 10vw 0vw 10vw;
+}
+
 ul {
 	display: flex;
 	flex-wrap: wrap;
@@ -104,7 +105,7 @@ figure > img, video {
 	border-style: outset outset inset inset;
 	border-width: 5px;
 	border-radius: 3px;
-	border-color: lightpink;
+	border-color: skyblue;
 	max-width: 60vw;
 }
 
