@@ -296,6 +296,13 @@ a:visited {
         background-color: rgba(0, 0, 0, 0.0);
 }
 
+#badges {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: start;
+	padding: 0px 24px 0px 24px;
+}
+
 #gifs {
         line-height: 0;
         column-count: 4;
