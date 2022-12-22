@@ -11,16 +11,19 @@
         src: url(../fonts/Cageroll-Roll.otf);
         font-display: swap;
 }
+
 @font-face {
         font-family: "Duration";
         src: url(../fonts/Duration\ Book.ttf);
         font-display: swap;
 }
+
 @font-face {
         font-family: "PlanetEstyle";
         src: url(../fonts/PlanetEstyle.ttf);
         font-display: swap;
 }
+
 @font-face {
         font-family: "Terminus";
         src: url(../fonts/TerminusTTF-4.49.2.ttf);
@@ -35,14 +38,16 @@
 * ██║  ██║███████╗██║  ██║██████╔╝███████╗██║  ██║
 * ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝                                                       
 */
-
 header {
-	background-image: url(../img/backgrounds/sky.gif);
-	color: skyblue;
-	text-align: center;
-	text-shadow: 2px 2px lightpink;
-	margin: -50px;
-	margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url(../img/backgrounds/sky.gif);
+        color: skyblue;
+        text-align: center;
+        text-shadow: 2px 2px lightpink;
+        margin: 100px 10vw 0vw 10vw;
+        padding-right: 15px;
 }
 
 header *:hover {
@@ -50,85 +55,94 @@ header *:hover {
         animation-iteration-count: infinite;
 }
 
-
 h1 {
-	font-family: Cageroll, sans-serif;
-	font-size: 77px;
+        font-family: Cageroll, sans-serif;
+        font-size: 77px;
 }
 
 h2 {
-	font-family: Duration, sans-serif;
-	font-size: 66px;
-	font-style: italic;
-	margin-top: -25px;
+        font-family: Duration, sans-serif;
+        font-size: 66px;
+        font-style: italic;
+        margin-top: -25px;
 }
 
 /*
 * body
 * 
 */
-
 body {
-	display: flex;
-	flex-direction: column;
-	background-image: url(../img/backgrounds/matrix.gif);
-	font-family: PlanetEstyle, sans-serif;
-	font-size: 22px;
-	color: skyblue;
-	cursor: url("../img/cursors/TENSHICURSOR.cur"), default;
+        display: flex;
+        flex-direction: column;
+        background-image: url(../img/backgrounds/matrix.gif);
+        font-family: PlanetEstyle, sans-serif;
+        font-size: 22px;
+        color: skyblue;
+        margin: 0;
+        cursor: url("../img/cursors/TENSHICURSOR.cur"), default;
 }
 
-main, footer {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	background-image: url(../img/backgrounds/Static2.gif);
-	margin: 0vw 10vw 0vw 10vw;
-	padding: 0vw 5vw 0vw 5vw;
+main,
+footer {
+        background-image: url(../img/backgrounds/Static2.gif);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0vw 10vw 0vw 10vw;
+        padding: 3vw 5vw 0vw 5vw;
 }
 
-h3, p, small, ul{
-	align-self: flex-start;
-	margin: 0vw 10vw 0vw 10vw;
+footer {
+        margin-bottom: 100px;
+}
+
+h3,
+p,
+small,
+ul {
+        align-self: flex-start;
+        margin: 0vw 10vw 0vw 10vw;
 }
 
 ul {
-	display: flex;
-	flex-wrap: wrap;
-	column-gap: 50px;
-	list-style-image: url(../img/clickies/wing_r.png);
-	font-size: 1.2em;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 50px;
+        list-style-image: url(../img/clickies/wing_r.png);
+        font-size: 1.2em;
 }
 
-figure > img, video {
-	background-color: rgba(0, 0, 0, 0);
-	border-style: outset outset inset inset;
-	border-width: 5px;
-	border-radius: 3px;
-	border-color: skyblue;
-	max-width: 60vw;
+figure>img,
+video {
+        background-color: rgba(0, 0, 0, 0);
+        border-style: outset outset inset inset;
+        border-width: 5px;
+        border-radius: 3px;
+        border-color: skyblue;
+        max-width: 60vw;
 }
 
 figcaption {
-	font-family: Terminus;
-	color: lightpink;
-	font-size: .8em;
-	font-style: italic;
+        font-family: Terminus;
+        color: lightpink;
+        font-size: .8em;
+        font-style: italic;
 }
 
 a {
-	color: lightpink;
+        color: lightpink;
 }
 
 a:hover {
-	cursor: url("../img/cursors/TENSHICURSOR_select.cur"), default;
+        cursor: url("../img/cursors/TENSHICURSOR_select.cur"), default;
 }
+
 #buttons {
         display: flex;
         flex-wrap: wrap;
-	column-gap: 5px;
+        column-gap: 5px;
         justify-content: center;
-	margin: 15px 0px 15px 0px;
+        margin: 15px 0px 15px 0px;
 }
 
 #buttons>img {
@@ -140,22 +154,20 @@ a:hover {
 /*
  * seeders
  */
-
 .seeder {
-	position: fixed;
-	bottom: 3px;
-	width: 250px;
+        position: fixed;
+        bottom: 3px;
+        width: 250px;
 }
 
 #seeder-left {
-	left: -55px;
+        left: -55px;
 }
 
 #seeder-right {
-	right: -55px;
-	transform: scaleX(-1);
+        right: -55px;
+        transform: scaleX(-1);
 }
-
 
 @keyframes shake {
         0% {
@@ -202,4 +214,3 @@ a:hover {
                 transform: translate(1px, -2px) rotate(-1deg);
         }
 }
-
