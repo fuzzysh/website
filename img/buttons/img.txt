@@ -111,7 +111,6 @@
 <img src="img/buttons/email-icon.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/emailbutton.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/emailbuttonborder.gif" loading="lazy" width="88px" height="31" alt="">
-<img src="img/buttons/emailbuttonborder.jpg" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/emulate.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/euphoric.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/eva.gif" loading="lazy" width="88px" height="31" alt="">
@@ -314,7 +313,6 @@
 <img src="img/buttons/right2repair.png" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/sa2.png" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/sadgirl.gif" loading="lazy" width="88px" height="31" alt="">
-<img src="img/buttons/seederbutton3.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/seederbutton3B.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/seedyourtorrents.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/sega_online.gif" loading="lazy" width="88px" height="31" alt="">
@@ -342,12 +340,8 @@
 <img src="img/buttons/surfin3d.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/surftobanner.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/tenshiNOWbutton.png" loading="lazy" width="88px" height="31" alt="">
-<img src="img/buttons/tenshibutton.png" loading="lazy" width="88px" height="31" alt="">
-<img src="img/buttons/tenshibutton2.png" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/tenshibutton2B.png" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/tenshibuttonB.png" loading="lazy" width="88px" height="31" alt="">
-<img src="img/buttons/tenshibuttonopaque.png" loading="lazy" width="88px" height="31" alt="">
-<img src="img/buttons/tenshibuttonopaqueflip.png" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/teshinowbutton.png" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/thanks-for-looking.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/themez.gif" loading="lazy" width="88px" height="31" alt="">
