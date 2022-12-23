@@ -16,6 +16,7 @@
 <img src="img/buttons/EncounterAnAlien.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/FRICK.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/InternetArchiverGIF.gif" loading="lazy" width="88px" height="31" alt="">
+<img src="img/buttons/KKCYBERNOWbutton.png" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/NOWTHATSWHATICALLSHITPOSTING.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/NeoCitiesGrey.png" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/NoBadHairDaysOnInternet.png" loading="lazy" width="88px" height="31" alt="">
@@ -314,6 +315,7 @@
 <img src="img/buttons/sa2.png" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/sadgirl.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/seederbutton3.gif" loading="lazy" width="88px" height="31" alt="">
+<img src="img/buttons/seederbutton3B.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/seedyourtorrents.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/sega_online.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/segagendevring.gif" loading="lazy" width="88px" height="31" alt="">
@@ -339,8 +341,14 @@
 <img src="img/buttons/surf-to.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/surfin3d.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/surftobanner.gif" loading="lazy" width="88px" height="31" alt="">
+<img src="img/buttons/tenshiNOWbutton.png" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/tenshibutton.png" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/tenshibutton2.png" loading="lazy" width="88px" height="31" alt="">
+<img src="img/buttons/tenshibutton2B.png" loading="lazy" width="88px" height="31" alt="">
+<img src="img/buttons/tenshibuttonB.png" loading="lazy" width="88px" height="31" alt="">
+<img src="img/buttons/tenshibuttonopaque.png" loading="lazy" width="88px" height="31" alt="">
+<img src="img/buttons/tenshibuttonopaqueflip.png" loading="lazy" width="88px" height="31" alt="">
+<img src="img/buttons/teshinowbutton.png" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/thanks-for-looking.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/themez.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/therock.png" loading="lazy" width="88px" height="31" alt="">
