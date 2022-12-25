@@ -228,4 +228,5 @@
 <img src="img/stamps/wada_by_molly_stamps-db2gocb.png" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/worm.gif" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/xSatoshi_madokahomura.gif" loading="lazy" width="99px" height="56" alt="">
+<img src="img/stamps/year2000.gif" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/your_heart_is_mine_by_gay_mage_of_space-daxhz8v.png" loading="lazy" width="99px" height="56" alt="">

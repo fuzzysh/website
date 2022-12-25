@@ -381,6 +381,5 @@
 <img src="img/buttons/xfiless.png" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/xp.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/y2k.gif" loading="lazy" width="88px" height="31" alt="">
-<img src="img/buttons/year2000.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/yurucamp3.png" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/zettai.gif" loading="lazy" width="88px" height="31" alt="">
