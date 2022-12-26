@@ -139,7 +139,7 @@ h4>a:visited {
 }
 
 .blurb {
-        max-width: 528px;
+        width: 528px;
         background-color: rgba(0, 0, 0, 0.4);
         font-family: "Comic Relief", serif;
         font-size: 1.2em;
@@ -310,7 +310,7 @@ a:visited {
 }
 
 #gifs>img {
-        width: 100% !important;
+        width: 100%;
         height: auto !important;
         background-color: rgba(0, 0, 0, 0.0);
 }
@@ -356,7 +356,7 @@ h6 {
         border: groove;
         border-width: 6px;
         border-color: plum;
-        width: 516px;
+        max-width: 516px;
         height: auto;
 }
 
