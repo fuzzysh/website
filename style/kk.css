@@ -107,7 +107,8 @@ a:hover {
 }
 
 main,
-footer {
+footer,
+section {
         background-image: url(../img/backgrounds/Static2.gif);
  color: #87ceeb;
         margin-left: 15vw;

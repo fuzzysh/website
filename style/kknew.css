@@ -83,7 +83,8 @@ body {
 }
 
 main,
-footer {
+footer,
+section {
         background-image: url(../img/backgrounds/Static2.gif);
         display: flex;
         align-items: center;
@@ -139,6 +140,7 @@ a:hover {
 
 #buttons {
         display: flex;
+	flex-direction: row;
         flex-wrap: wrap;
         column-gap: 5px;
         justify-content: center;
