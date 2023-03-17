@@ -153,6 +153,11 @@ ul {
         max-width: 60vw;
 }
 
+figure > img:hover {
+	transform: rotateX('160deg');
+	transform: rotateY('10deg');
+}
+
 figcaption {
         font-size: .7em;
         font-style: italic;

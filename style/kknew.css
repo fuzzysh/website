@@ -104,6 +104,10 @@ ul {
         align-self: flex-start;
         margin: 0vw 10vw 0vw 10vw;
 }
+h3:hover {
+	animation: weeee 0.2s;
+        animation-iteration-count: infinite;
+}
 
 ul {
         display: flex;
@@ -121,6 +125,9 @@ video {
         border-radius: 3px;
         border-color: skyblue;
         max-width: 60vw;
+}
+figure>img:hover{
+	animation: spin 1s;
 }
 
 figcaption {
@@ -215,4 +222,96 @@ a:hover {
         100% {
                 transform: translate(1px, -2px) rotate(-1deg);
         }
+}
+
+@keyframes spin {
+	0%{
+		transform: rotate3d(0,0,0,0deg);
+	}
+        10% {
+                transform: rotate3d(36,36,36,36deg);
+        }
+
+        20% {
+                transform: rotate3d(72,72,72,72deg);
+        }
+
+        30% {
+                transform: rotate3d(108,108,108,108deg);
+        }
+
+        40% {
+                transform: rotate3d(144,144,144,144deg);
+        }
+
+        50% {
+                transform: rotate3d(180,180,180,180deg);
+        }
+
+        60% {
+                transform: rotate3d(216,216,216,216deg);
+        }
+
+        70% {
+                transform: rotate3d(252,252,252,252deg);
+        }
+
+        80% {
+                transform: rotate3d(288,288,288,288deg);
+        }
+
+        90% {
+                transform: rotate3d(324,324,324,324deg);
+        }
+
+        100% {
+                transform: rotate3d(360,360,360,360deg);
+        }
+
+}
+
+@keyframes weeee {
+	0%{
+		transform: rotateZ(0deg);
+	}
+        10% {
+                transform: rotateZ(36deg);
+        }
+
+        20% {
+                transform: rotateZ(72deg);
+        }
+
+        30% {
+                transform: rotateZ(108deg);
+        }
+
+        40% {
+                transform: rotateZ(144deg);
+        }
+
+        50% {
+                transform: rotateZ(180deg);
+        }
+
+        60% {
+                transform: rotateZ(216deg);
+        }
+
+        70% {
+                transform: rotateZ(252deg);
+        }
+
+        80% {
+                transform: rotateZ(288deg);
+        }
+
+        90% {
+                transform: rotateZ(324deg);
+        }
+
+        100% {
+                transform: rotateZ(360deg);
+        }
+
 }
