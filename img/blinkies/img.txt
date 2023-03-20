@@ -264,6 +264,7 @@
 <img src="img/blinkies/utena.gif" loading="lazy" width="150px" height="20" alt="">
 <img src="img/blinkies/vader.gif" loading="lazy" width="150px" height="20" alt="">
 <img src="img/blinkies/videogamegirl.gif" loading="lazy" width="150px" height="20" alt="">
+<img src="img/blinkies/violentvidya.gif" loading="lazy" width="150px" height="20" alt="">
 <img src="img/blinkies/virus.gif" loading="lazy" width="150px" height="20" alt="">
 <img src="img/blinkies/web surfer.gif" loading="lazy" width="150px" height="20" alt="">
 <img src="img/blinkies/website4.gif" loading="lazy" width="150px" height="20" alt="">

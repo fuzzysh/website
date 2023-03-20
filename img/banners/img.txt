@@ -1,3 +1,4 @@
+<img src="img/banners/0BTCS.png" loading="lazy" width="350px" height="19" alt="">
 <img src="img/banners/10179.png" loading="lazy" width="350px" height="19" alt="">
 <img src="img/banners/1027.png" loading="lazy" width="350px" height="19" alt="">
 <img src="img/banners/103.jpg" loading="lazy" width="350px" height="19" alt="">
