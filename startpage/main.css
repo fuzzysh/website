@@ -55,14 +55,8 @@ img{
 	object-fit: cover;
 	object-position: center;
 	min-width: 40vw;
-	max-width: 90vw;
+	max-width: 75vw;
 	min-height: 60vh;
 	max-height: 120vh;
 	border-radius: 12px;
-}
-iframe{
-	position: static;
-	height: 70vh;
-	border: none;
-	border-radius: 6px;
 }
