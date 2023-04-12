@@ -1,5 +1,5 @@
 @media only screen
-	and (max-device-width: 1199px)
+	and (max-width: 1199px)
 {
 	#time{
 		margin: 1px 0px 10px 0px;
