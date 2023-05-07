@@ -11,6 +11,7 @@
 <img src="img/stamps/CMD.gif" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/CSS.gif" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/UFO.gif" loading="lazy" width="99px" height="56" alt="">
+<img src="img/stamps/__fuck______by_unicorn_gal-dbzcf9e.png" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/abba.gif" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/analog.png" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/animalcrossing.png" loading="lazy" width="99px" height="56" alt="">
@@ -24,6 +25,7 @@
 <img src="img/stamps/bonzibuddy.png" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/brainleak.gif" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/brick.gif" loading="lazy" width="99px" height="56" alt="">
+<img src="img/stamps/canthandlecussing.png" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/cfe4154e2d76ef28905eec3211797b72-d9y5ll0.png" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/city.gif" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/cityscape.gif" loading="lazy" width="99px" height="56" alt="">
@@ -66,6 +68,7 @@
 <img src="img/stamps/dd720uo-90af08ce-af45-40e8-9621-cdc37b640803.gif" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/delete__stamp__by_ghoulpng-da64l7n.gif" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/dogofwisdom.gif" loading="lazy" width="99px" height="56" alt="">
+<img src="img/stamps/dontlikeitdontreadit.gif" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/dragon_stamp_001_by_beepudding-dbzdh03.png" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/eatpant.gif" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/eatstamps.gif" loading="lazy" width="99px" height="56" alt="">
@@ -80,6 +83,7 @@
 <img src="img/stamps/hacktheplanet.gif" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/hell.png" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/high_school_musical_4__by_hsm_haters_fc.jpg" loading="lazy" width="99px" height="56" alt="">
+<img src="img/stamps/hugepenis.png" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/hypnosis.gif" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/i love amon koutarou send tweet.png" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/i_love_bows_by_makeitstampy.png" loading="lazy" width="99px" height="56" alt="">
@@ -92,6 +96,7 @@
 <img src="img/stamps/keyboard.png" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/life_is_by_kicked_in_teeth-dbtn7fu.png" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/load.gif" loading="lazy" width="99px" height="56" alt="">
+<img src="img/stamps/macncheese.png" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/made_in_the___90s_by_mr_stamp.gif" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/metalsonic.gif" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/moon_aesthetic___stamp_by_galactixstar-das3u67.gif" loading="lazy" width="99px" height="56" alt="">
@@ -100,6 +105,7 @@
 <img src="img/stamps/nights.png" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/nohs.png" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/oldweb.gif" loading="lazy" width="99px" height="56" alt="">
+<img src="img/stamps/onlineboyfirned.gif" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/pantone_15_0343_greenery_by_king_lulu_deer-dc6jyy4.png" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/pantone_holographic_by_king_lulu_deer-dc6j2s8.gif" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/pantone_peach_by_king_lulu_deer-dc6iyjl.png" loading="lazy" width="99px" height="56" alt="">
@@ -228,5 +234,6 @@
 <img src="img/stamps/wada_by_molly_stamps-db2gocb.png" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/worm.gif" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/xSatoshi_madokahomura.gif" loading="lazy" width="99px" height="56" alt="">
+<img src="img/stamps/yaoiyurihet.png" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/year2000.gif" loading="lazy" width="99px" height="56" alt="">
 <img src="img/stamps/your_heart_is_mine_by_gay_mage_of_space-daxhz8v.png" loading="lazy" width="99px" height="56" alt="">

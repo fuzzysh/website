@@ -25,6 +25,7 @@
 <img src="img/buttons/ab-trn.png" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/acab.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/acab2.gif" loading="lazy" width="88px" height="31" alt="">
+<img src="img/buttons/acab3.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/acceptancenow.png" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/addchannel.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/adultchat.gif" loading="lazy" width="88px" height="31" alt="">
@@ -81,6 +82,7 @@
 <img src="img/buttons/clickhere_blue.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/clickhere_red.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/coffee.gif" loading="lazy" width="88px" height="31" alt="">
+<img src="img/buttons/communism.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/computer.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/coolshades.png" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/copy_floppy.gif" loading="lazy" width="88px" height="31" alt="">
@@ -294,6 +296,7 @@
 <img src="img/buttons/pngnow.png" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/poweredbyfedora.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/poweredwithblackmagic.gif" loading="lazy" width="88px" height="31" alt="">
+<img src="img/buttons/powernavi-badge.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/ppc.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/pride.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/privacynow.png" loading="lazy" width="88px" height="31" alt="">
@@ -303,6 +306,7 @@
 <img src="img/buttons/proud_of_my_son.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/ps2.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/puyo.png" loading="lazy" width="88px" height="31" alt="">
+<img src="img/buttons/puyopuyo1992.png" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/queer.png" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/queer2.gif" loading="lazy" width="88px" height="31" alt="">
 <img src="img/buttons/queer3.gif" loading="lazy" width="88px" height="31" alt="">
