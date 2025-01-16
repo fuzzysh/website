@@ -1,0 +1,136 @@
+@font-face {
+        font-family: "Excelorate";
+        src: url(../fonts/Excelorate-Font.otf);
+}
+@font-face {
+        font-family: "Cageroll Roll";
+        src: url(../fonts/Cageroll-Roll.otf);
+}
+@font-face {
+        font-family: "Duration Book";
+        src: url(../fonts/Duration\ Book.ttf);
+}
+html {
+        background-color: skyblue;
+        background-image: url("../images/backgrounds/ss221.jpg");
+}
+header {
+        text-align: center;
+        font-size: 1.25em;
+        padding-top: 10px;
+	margin-bottom: 50px;
+        text-shadow: 5px 5px skyblue;
+        color: lightpink;
+}
+h1 {
+        font-family: "Cageroll Roll";
+        font-size: 77px;
+        margin-bottom: 10px;
+}
+h2 {
+        font-family: "Duration Book";
+        font-style: italic;
+        font-size: 25px;
+        margin-top: 0;
+        padding-bottom: 50px;
+}
+nav {
+        display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+        flex-direction: column;
+        font-family: "Cageroll Roll", serif;
+        font-size: 1.3rem;
+        margin-right: 2rem;
+}
+a {
+        color: skyblue;
+        text-decoration: none;
+}
+a:visited {
+        color: #87cffb;
+}
+a:hover {
+        text-shadow: 0.5px 0.5px lightpink;
+}
+nav li{
+        list-style-type: none;
+        margin-bottom: 1.2rem;
+        padding: 0px 6px 0px 6px;
+        text-align: center;
+        align-content: center;
+        width: 120px;
+        height: 56px;
+        line-height: 27px;
+        background-image: url("../images/backgrounds/pixelcloud.png");
+        background-position: center;
+        background-clip: border-box;
+        background-size: 100%;
+}
+main {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+}
+#center {
+        display: flex;
+        flex-direction: column;
+        width: 680px;
+}
+#blurb {
+        padding-left: 25px;
+        background-color: rgb(255, 255, 255, 0.5);
+}
+#png-columns-group {
+        display: flex;
+        flex-direction: row;
+        width: 680px;
+}
+.png-columns {
+        display: flex;
+        flex-direction: column;
+        width: 210px;
+        height: 500px;
+        overflow-y: scroll;
+        padding: 0px 8.3px;
+}
+.png-columns img{
+        padding: 8.3px 0px;
+}
+#gallery {
+        display: flex;
+        flex-wrap: wrap;
+        width: 680px;
+        z-index: 1;
+}
+.gallery-item {
+        width: 210px;
+        height: 210px;
+        padding: 8.3px;
+        object-fit: cover;
+}
+#frame-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 680px;
+        z-index: 100;
+        margin-top: -906.4px;
+        pointer-events: none;
+}
+.gallery-frame {
+        width: 210px;
+        height: 210px;
+        padding: 8.3px;
+}
+.gallery-frame:hover {
+        rotate: 3deg;
+}
+
+.gallery-item:active {
+        width: 680px;
+        height: auto;
+        z-index: 500;
+}
