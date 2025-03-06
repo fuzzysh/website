@@ -1,0 +1,14 @@
+dl {
+        margin-left: 20px;
+}
+dt {
+        font-weight: bold;
+}
+dd {
+        display: list-item;
+        list-style-type: disc;
+        line-height: 25px;
+}
+dd:nth-of-type(4n) {
+        margin-bottom: 15px;
+}

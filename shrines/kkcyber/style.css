@@ -1,0 +1,228 @@
+@font-face {
+        src: url(media/fonts/GAU_pop_magic.TTF);
+        font-family: 'pop-magic';
+}
+@font-face {
+        src: url(media/fonts/toxigenesis.rg-bold.otf);
+        font-family: 'toxigenesis';
+}
+body {
+        display: flex;
+        justify-content: center;
+        font-family: sans-serif;
+        text-align: justify;
+        background: url(media/bg/bg-ds_blue.png);
+        background-attachment: fixed;
+        cursor: url(media/cursors/TENSHICURSOR.png), auto;
+}
+.container {
+        /*background-image: linear-gradient(to left bottom,#FFF, #EEF4FF);*/
+        max-width: 35vw;
+        /*border: 2px ridge #E5E8F5;
+        border-radius: 5px;
+        padding: 10px;*/
+}
+header {
+        background-image: linear-gradient(to left bottom,#FFF, #EEF4FF);
+        border: 2px ridge #E5E8F5;
+        border-radius: 5px;
+}
+h1 {
+        font-family: pop-magic;
+        font-size: 4em;
+        text-align: center;
+        margin: 5px;
+        background: linear-gradient(to left bottom,lightblue, lightblue, lightpink,lightpink);
+        background-clip: text;
+        color: transparent;
+}
+h2 {
+        font-family: toxigenesis;
+        text-align: center;
+        font-size: 1.2em;
+        background: linear-gradient(to left bottom,lightblue, lightblue, lightpink,lightpink);
+        background-clip: text;
+        color: transparent;
+}
+h4 {
+        margin-top: 10px;
+}
+main {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 5px;
+
+}
+article {
+        border: 2px ridge #E5E8F5;
+        border-radius: 5px;
+        padding: 5px;
+        background-image: linear-gradient(to left bottom,#FFF, #EEF4FF);
+}
+footer {
+        font-size: 0.6em;
+        text-align: center;
+}
+a {
+        background-image: linear-gradient(to left bottom, #445899, #262f5e);
+        color: white;
+        padding: 4px;
+        border-radius: 5px;
+        text-decoration: none;
+
+}
+a:has(span) {
+        background: none;
+}
+/*
+ *nicknames
+ *
+ *
+ */
+.nicknames {
+        display: flex;
+        gap: 5px;
+}
+.nicknames article {
+        flex: 1 1 66%;
+}
+.nicknames aside {
+        flex: 1 1 33%;
+        font-size: 0.9em;
+        border: 2px ridge #E5E8F5;
+        border-radius: 5px;
+        padding: 5px;
+        background-image: linear-gradient(to left bottom,#FFF, #EEF4FF);
+}
+aside ul{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 5px;
+        list-style-type: none;
+        padding-left: 0px;
+        margin: 0px;
+        margin-left: 5px;
+}
+aside li {
+        background: linear-gradient(to left bottom,lightblue, lightblue, lightpink,lightpink);
+        color: black;
+        padding: 4px;
+        border-radius: 5px;
+}
+/*
+ *has-image
+ *
+ *
+ */
+.has-image {
+        display: flex;
+
+}
+.article-image{
+        flex: 1 1 22%;
+}
+.article-image img{
+        width: 100%;
+}
+.article-p {
+        flex: 1 1 77%;
+}
+/*
+ *png-columns-group
+ *
+ *
+ *
+ */
+.png-columns-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 5px;
+        padding: 5px;
+}
+.png-columns {
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+        height: 750px;
+        overflow-y: scroll;
+        padding: 0px 8.3px;
+        border: 2px ridge #E5E8F5;
+        border-radius: 5px;
+}
+.png-columns img {
+        padding: 8.3px 0px;
+}
+.pngs-and-article {
+        border: 2px ridge #E5E8F5;
+        border-radius: 5px;
+        background-image: linear-gradient(to left bottom,#FFF, #EEF4FF);
+}
+.pngs-and-article article {
+        border: none;
+        background: none;
+}
+/*
+ *support
+ *
+ *
+ */
+.support {
+        margin-top: 15px;
+}
+.support p{
+        margin-bottom: 5px;
+        margin-top: 5px;
+}
+.buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+}
+
+.buttons>img {
+        width: 88px;
+        height: 31px;
+        image-rendering: pixelated;
+        margin: 1px;
+        background-color: rgba(0, 0, 0, 0.0);
+}
+
+@media only screen and (max-width: 2176px) {
+.container {
+        max-width: 45vw;
+}
+}
+@media only screen and (max-width: 1693px) {
+.container {
+        max-width: 55vw;
+}
+}
+@media only screen and (max-width: 1385px) {
+.container {
+        max-width: 65vw;
+}
+}
+@media only screen and (max-width: 1171px) {
+.container {
+        max-width: 75vw;
+}
+}
+@media only screen and (max-width: 1016px) {
+.container {
+        max-width: 85vw;
+}
+}
+@media only screen and (max-width: 895px) {
+.container {
+        max-width: 98vw;
+}
+h1 {
+        font-size: 3em;
+}
+.png-columns {
+        height: 500px;
+}
+}

@@ -1,0 +1,23 @@
+.columns-headings {
+        display: flex;
+        justify-content: space-around;
+}
+.scrolling-columns {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+}
+.scrolling-columns section {
+        width: 300px;
+        height: 500px;
+        border: solid 2px black;
+        padding: 10px;
+        overflow-y: auto;
+        overflow-x: hidden;
+}
+dt {
+        font-weight: bold;
+}
+dd {
+        margin-bottom: 15px;
+}

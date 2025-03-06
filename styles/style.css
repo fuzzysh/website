@@ -1,0 +1,130 @@
+:root{
+        --text: black;
+        --bg: white;
+        --header-image: url('../media/bg/yuki1.png');
+        --bg-image: linear-gradient(#000000 1.6px, transparent 1.6px), linear-gradient(to right, #000 1.6px, #fff 1.6px);
+}
+body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+        background-color: var(--bg);
+        opacity: 1;
+        background-image: var(--bg-image);
+        background-size: 32px 32px;
+}
+.flex-container {
+        text-transform: lowercase;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 40vw;
+        margin-top: 5vh;
+}
+a {
+        color: var(--a);
+}
+a:visited {
+        color: var(--a-visited);
+}
+header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        color: var(--text);
+        background-color: var(--bg);
+        padding-right: 10px;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        background-image: url(../media/bg/yuki1.png);
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-origin: border-box;
+}
+nav {
+        display: flex;
+        background-color: var(--bg);
+        justify-content: center;
+        column-gap: 10px;
+        border-radius: 35px;
+        margin-bottom: 10px;
+}
+nav a {
+        color: var(--text);
+        text-decoration: none;
+        padding: 10px;
+}
+nav a:visited{
+        color: var(--text);
+}
+.scroll {
+        max-height: 750px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding-right: 10px;
+}
+main {
+        display: flex;
+        flex-direction: column;
+        color: var(--text);
+        background-color: var(--bg);
+        min-height: 750px;
+}
+.center-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.bottom-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: auto;
+}
+li {
+        list-style-type: none;
+}    
+.buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+}
+
+.buttons>img {
+        width: 88px;
+        height: 31px;
+        image-rendering: pixelated;
+        margin: 1px;
+        background-color: rgba(0, 0, 0, 0.0);
+}
+@media only screen and (max-width: 2110px) {
+        .flex-container {
+                width: 55vw;
+        }
+}
+@media only screen and (max-width: 1530px) {
+        .flex-container {
+                width: 75vw;
+        }
+}
+@media only screen and (max-width: 1120px) {
+        .flex-container {
+                width: 85vw;
+        }
+}
+@media only screen and (max-width: 990px) {
+        .flex-container {
+                width: 95vw;
+        }
+}
+@media only screen and (max-width: 860px) {
+        .flex-container {
+                width: 95vw;
+        }
+        nav {
+                flex-direction: column;
+        }
+}
