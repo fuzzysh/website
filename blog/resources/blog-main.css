@@ -1,0 +1,24 @@
+main {
+        text-transform: none;
+}
+#post-tags {
+        display: flex;
+        gap: 10px;
+}
+.blog-image-container {
+        display: flex;
+        justify-content: center;
+}
+.blog-image {
+        width: 50%;
+}
+.sheet-shadow {
+        border-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAABqElEQVR4Xu3bQY7CMBBE0eT+hwa2BCF3d/0kivRni1N2vxRmNfvmHyqwo2mGbYLCJRBUUFgAjrOhgsICcJwNFRQWgONsqKCwABxnQx8I+oLPfHVcq3StxcNJBB3C/XtMUEG/BFrf4tbiIvSqkWfsWTxaadnx/K3zthaXjrNtghahqssErUoV1wlahKr+ih+vkehOCs82eTw6L3GHrg6w+nwy9JnPROcV9PfVCArX9XLQ1Y/Oaj7iW7HaI/k8mm8yXLThZ9LJnglQ99lovslw0YaCri/tbgMmL7G7R7I+KsxkuOjSTia96FlBYWhBBYUF4DgbKigsAMfZUEFhATjOhgoKC8BxNlRQWACOs6GCwgJwnA0VFBaA42yooLAAHGdDBYUF4DgbKigsAMfZUEFhATjOhgoKC8BxNlRQWACOs6GCwgJwnA0VFBaA42yooLAAHGdDBYUF4DgbKigsAMfZUEFhATju9obC8zw7jvjHr2cLwKcXVFBYAI6bNLR7hOiS725293pB4TcgqKCwABxnQwWFBeA4GyooLADH2VBBYQE4zoYKCgvAcW/yqIAZzrdtfAAAAABJRU5ErkJggg==') 28 /  28px / 0 round;
+        border-width:  28px;
+        border-style:  solid; 
+}
+.sheet {
+    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAACWElEQVR4Xu2b0XaCQAxE1f//Zltb21MEbDLJsKDn+qiz2eRmCKB4PvGyEjhboxHsBFCzCQAKUDMBczgcClAzAXM4HApQMwFzOBwKUDMBczgc+oJAP8w5jw4nmU4SFysBaBHcs2UAfS2gXwfZpj2TjmJJnAQdVbfFnsnUUrJ5/lK+kjiVTmyXLfZMppaSATSFKS8CaJ5VSrk70CiB6PNUlQNFrXwd8yxKIPp8IKvUVq18AbpkfHSgl1uC12najiamrFYUTYBebiGuUr6S+CfB6Drzr47vfBZlVfYssiktG+7QPND1egA64wLQf4xfcQtANwZaaUppuA1atPsMBeik0xUYrQ4Ocllnm1Z9AD3AhX2rgx3rDFrbqg+H4tDNfYpDzYgBClAzAXM4HApQMwFzOBwKUDMBczgc6gY6e7hHuvmRxE9+AqnEMDOwhsOhVpzLR4kkw0hiHBq3DqArX44wQ2PjKApmqEIroQVoApIiAahCK6EFaAKSItkR6P3ZpcqVglLgaO2OQO+lAnTS8gqMVgdH262wX6s+gK5c2M/ekhhJYm49Y78DFIfGLmkqmKFNgPPlN6APz7JLR7EkZobGrQMoMzR2SVOxzwydfAlbcXmz5k2X7wO0ebe1KZFmcIA2Aa6c5R/eko5AScxZPm4dQA94lo/b9qtY/+9nfr07Tm5nyXSS+Mkhn0trb9Xst2EhHYmRJLYBrRcncLBJJUaSeAr0eExc82TRCImRJLb1/I0DAdTcXIAC1EzAHA6HAtRMwBwOhwLUTMAcDocC1EzAHA6HAtRMwBzuExQfg1Wrq+j2AAAAAElFTkSuQmCC") 28 /  28px / 0 round;
+    border-width:  28px;
+    border-style:  solid;
+}

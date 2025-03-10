@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>Sign My Guestbook</title>
+                <link href="media/favicon/rando2.gif" rel="icon" type="image/x-icon">
+                <link href="styles/style.css" rel="stylesheet">
+        </head>
+        <body>
+                <section class="flex-container">
+                        <header class="dam">
+                                <h1>Hi I'm Fuzzy</h1>
+                                <h2>This is my website</h2>
+                        </header>
+                        <nav class="simple">
+                                <a class="broider" href="index.html">Home</a>
+                                <a class="broider" href="goodies.html">Goodies</a>
+                                <a class="broider" href="blog/index.html">Blog</a>
+                                <a class="broider" href="shrines.html">Shrines</a>
+                                <a class="broider" href="guestbook.html">Guestbook</a>
+                        </nav>
+                        <main class="HCB-container notebook">
+                                <h3>sign my guestbook!</h3>
+                                <iframe src="https://fuzzy.atabook.org/" height="750px" style="border: none; object-position: left;"></iframe>
+                        </main>
+                </section>
+        </body>
+</html>

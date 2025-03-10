@@ -100,24 +100,113 @@ li {
         margin: 1px;
         background-color: rgba(0, 0, 0, 0.0);
 }
+.chiaki {
+        position: absolute;
+        top: 350px;
+        left: 27vw;
+        width: 100px;
+}
+.kurumi {
+        position: absolute;
+        top: 600px;
+        right: 27vw;
+        width: 100px;
+        transform: rotate(7deg);
+}
+.sakina {
+        position: absolute;
+        top: 900px;
+        left: 28vw;
+        width: 100px;
+        transform: rotate(-7deg);
+}
 @media only screen and (max-width: 2110px) {
         .flex-container {
                 width: 55vw;
+        }
+        .chiaki {
+                position: absolute;
+                top: 350px;
+                left: 18.5vw;
+                width: 100px;
+        }
+        .kurumi {
+                position: absolute;
+                top: 600px;
+                right: 18.5vw;
+                width: 100px;
+                transform: rotate(7deg);
+        }
+        .sakina {
+                position: absolute;
+                top: 900px;
+                left: 20vw;
+                width: 100px;
+                transform: rotate(-7deg);
         }
 }
 @media only screen and (max-width: 1530px) {
         .flex-container {
                 width: 75vw;
         }
+        .chiaki {
+                position: absolute;
+                top: 350px;
+                left: 7vw;
+                width: 100px;
+        }
+        .kurumi {
+                position: absolute;
+                top: 600px;
+                right: 7vw;
+                width: 100px;
+                transform: rotate(7deg);
+        }
+        .sakina {
+                position: absolute;
+                top: 900px;
+                left: 8.5vw;
+                width: 100px;
+                transform: rotate(-7deg);
+        }
 }
 @media only screen and (max-width: 1120px) {
         .flex-container {
                 width: 85vw;
         }
+        .chiaki {
+                position: absolute;
+                top: 350px;
+                left: 1vw;
+                width: 100px;
+        }
+        .kurumi {
+                position: absolute;
+                top: 600px;
+                right: 1vw;
+                width: 100px;
+                transform: rotate(7deg);
+        }
+        .sakina {
+                position: absolute;
+                top: 900px;
+                left: 2vw;
+                width: 100px;
+                transform: rotate(-7deg);
+        }
 }
 @media only screen and (max-width: 990px) {
         .flex-container {
                 width: 95vw;
+        }
+        .chiaki {
+                display: none;
+        }
+        .kurumi {
+                display: none;
+        }
+        .sakina {
+                display: none;
         }
 }
 @media only screen and (max-width: 860px) {

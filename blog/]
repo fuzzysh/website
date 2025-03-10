@@ -1,0 +1,3 @@
+.primer-dl dt {
+        font-weight: bold;
+}

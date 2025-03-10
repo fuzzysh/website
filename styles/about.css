@@ -1,16 +1,15 @@
 .columns-headings {
         display: flex;
         justify-content: space-around;
+        margin-bottom: -20px;
 }
 .scrolling-columns {
         display: flex;
         justify-content: center;
-        gap: 15px;
 }
 .scrolling-columns section {
         width: 300px;
         height: 500px;
-        border: solid 2px black;
         padding: 10px;
         overflow-y: auto;
         overflow-x: hidden;
@@ -20,4 +19,5 @@ dt {
 }
 dd {
         margin-bottom: 15px;
+        margin-left: 15px;
 }
