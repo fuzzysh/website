@@ -1,0 +1,104 @@
+@font-face {
+        src: url(media/fonts/FuturaCyrillicBook.ttf);
+        font-family: 'futura-pt';
+}
+@font-face {
+        src: url(media/fonts/LeagueGothic-Regular.otf);
+        font-family: 'league-gothic';
+}
+@font-face {
+        src: url(media/fonts/pso2_font.ttf);
+        font-family: 'pso2';
+}
+body {
+        color: white;
+        background-image: url(media/bg/bg_scanlines.png);
+        background-repeat: repeat;
+        background-position: 50%;
+}
+.divider-top {
+        z-index: 1;
+        height: 84px;
+        width: 100.6%;
+        margin-left: -7px;
+}
+.divider-bottom {
+        z-index: 1;
+        height: 84px;
+        width: 100.6%;
+        margin-left: -7px;
+}
+.welcome {
+        background-image: url(media/bg/portal-ship.jpg);
+        background-repeat: no-repeat;
+        width: 100.6%;
+        min-height: 507px;
+        margin-top: -18px;
+        margin-left: -7px;
+        margin-bottom: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+}
+.welcome h4 {
+        font-family: league-gothic;
+        text-align: left;
+        font-size: 57px;
+        color: #aedbff;
+        font-weight: 400;
+        margin: 0;
+        margin-bottom: -400px;
+        flex-basis: 28%;
+}
+.welcome .break {
+        flex-basis: 100%;
+}
+.welcome p {
+        font-family: futura-pt;
+        text-align: justify;
+        font-size: 22px;
+        font-weight: 500;
+        padding: 0;
+        flex-basis: 27.99%;
+}
+main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 26%;
+        margin-right: 2%;
+
+}
+header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+header img {
+        width: 40em;
+}
+article {
+        display: flex;
+        flex-wrap: wrap;
+}
+h3 {
+        font-family: league-gothic;
+        font-size: 72px;
+        font-weight: 400;
+        margin: 0;
+        flex-basis: 100%;
+}
+p {
+        font-family: futura-pt;
+        font-weight: 400;
+        font-size: 22px;
+        margin: 0;
+        flex-basis: 66%;
+}
+article img {
+        width: 15%;
+        flex-basis: 15%;
+        padding: 5px;
+}
