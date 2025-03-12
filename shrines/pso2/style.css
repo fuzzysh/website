@@ -31,7 +31,7 @@ body {
 .welcome {
         background-image: url(media/bg/portal-ship.jpg);
         background-repeat: no-repeat;
-        width: 100.6%;
+        background-position: center;
         min-height: 507px;
         margin-top: -18px;
         margin-left: -7px;
