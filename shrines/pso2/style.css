@@ -82,6 +82,10 @@ header img {
 article {
         display: flex;
         flex-wrap: wrap;
+        margin-top: 70px;
+}
+article:first-of-type {
+        margin-top: 0;
 }
 h3 {
         font-family: league-gothic;
@@ -95,7 +99,8 @@ p {
         font-weight: 400;
         font-size: 22px;
         margin: 0;
-        flex-basis: 66%;
+        flex-basis: 50%;
+        text-align: justify;
 }
 article img {
         width: 15%;
