@@ -58,6 +58,11 @@ const posts = [
 //	"tags": [`otaku`, `primer`],
 //},
 {
+        "title": `Fuzzy's 2025 Spring Anime Season Primer`,
+        "filename": `2025-03-19-spring-primer`,
+        "tags" : [`otaku`, `primer`],
+},
+{
         "title": `Manga Time Kirara Manga 3x3`,
         "filename": `2025-02-28-krr-3x3`,
         "tags": [`otaku`, `kirara`],
