@@ -111,6 +111,13 @@ aside li {
         padding: 4px;
         border-radius: 5px;
 }
+article ul {
+        list-style-type: none;
+        margin-left: 0px;
+}
+article li {
+        margin-top: 13px;
+}
 /*
  *has-image
  *
