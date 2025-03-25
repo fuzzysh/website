@@ -58,6 +58,11 @@ const posts = [
 //	"tags": [`otaku`, `primer`],
 //},
 {
+        "title": `OkiTsura was really good`,
+        "filename": `2025-03-25-okitsura`,
+        "tags" : [`otaku`],
+},
+{
         "title": `Fuzzy's 2025 Spring Anime Season Primer`,
         "filename": `2025-03-19-spring-primer`,
         "tags" : [`otaku`, `primer`],
