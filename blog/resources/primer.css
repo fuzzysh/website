@@ -12,3 +12,11 @@ dd {
 dd:nth-of-type(4n) {
         margin-bottom: 15px;
 }
+.container {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 40px;
+}
+.container img {
+        height: 200px;
+}
