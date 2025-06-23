@@ -59,7 +59,7 @@ const posts = [
 //},
 {
         "title": `Fuzzy's 2025 Summer Anime Season Primer`,
-        "filename": `2025-07-01-summer-primer`,
+        "filename": `2025-06-23-summer-primer`,
         "tags": [`otaku`, `primer`],
 },
 {
