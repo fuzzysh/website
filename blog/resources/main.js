@@ -58,6 +58,11 @@ const posts = [
 //	"tags": [`otaku`, `primer`],
 //},
 {
+        "title": `Ichigeki Sacchu!! Hoihoi-san`,
+        "filename": `2025-09-03-Ichigeki-Sacchu-Hoihoi-san`,
+        "tags": [`otaku`, `videogames`],
+},
+{
         "title": `Fuzzy's 2025 Summer Anime Season Primer`,
         "filename": `2025-06-23-summer-primer`,
         "tags": [`otaku`, `primer`],
