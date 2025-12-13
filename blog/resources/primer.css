@@ -23,3 +23,19 @@ dd:nth-of-type(4n) {
 img {
         box-shadow: 5px 5px black;
 }
+h4 {
+        color: var(--blue);
+        background-color: var(--yellow);
+        border-radius: 25px;
+        text-shadow: none;
+        text-align: center;
+        margin: 0px;
+        padding: 0;
+}
+.primer-card {
+        border-style: solid;
+        border-radius: 25px;
+        box-shadow: 7px 7px black;
+        margin: 15px;
+        padding: 10px;
+}
