@@ -18,5 +18,8 @@ dd:nth-of-type(4n) {
         margin-bottom: 40px;
 }
 .container img {
-        height: 200px;
+        height: 220px;
+}
+img {
+        box-shadow: 5px 5px black;
 }
