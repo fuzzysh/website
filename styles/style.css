@@ -24,7 +24,7 @@ nav {
         text-align: center;
 }
 a {
-        color: var(--yellow);
+        color: pink;
         text-decoration: none;
 }
 a:hover {
