@@ -3,11 +3,13 @@ dl {
 }
 dt {
         font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 10px;
 }
 dd {
         display: list-item;
         list-style-type: disc;
-        line-height: 25px;
+        line-height: 32px;
 }
 dd:nth-of-type(4n) {
         margin-bottom: 15px;
@@ -15,7 +17,7 @@ dd:nth-of-type(4n) {
 .container {
         display: flex;
         flex-direction: row;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
 }
 .container img {
         height: 220px;
@@ -31,6 +33,7 @@ h4 {
         text-align: center;
         margin: 0px;
         padding: 0;
+        font-size: 1.2em;
 }
 .primer-card {
         border-style: solid;
@@ -38,4 +41,5 @@ h4 {
         box-shadow: 7px 7px black;
         margin: 15px;
         padding: 10px;
+        padding-left: 30px;
 }
