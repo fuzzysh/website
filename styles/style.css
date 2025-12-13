@@ -2,8 +2,14 @@
         --blue: #0047FF;
         --yellow: #FFF701;
 }
+@font-face {
+        font-family: ComicRelief;
+        src: 
+        url("../media/fonts/ComicRelief-Regular.woff2");
+}
 body {
-        font-family: sans-serif;
+        font-family: ComicRelief, sans-serif;
+        font-weight: bold;
         font-size: 1.2em;
         text-transform: lowercase;
         background-color: var(--yellow);
@@ -12,6 +18,9 @@ body {
         background-position: 40px 0, 40px 0, 0 0, 0 0;
         background-size: 80px 80px;
         background-repeat: repeat;
+}
+p {
+        line-height: 1em;
 }
 header {
         text-align: right;
