@@ -34,7 +34,7 @@ nav a:active {
         text-decoration: none;
         color: var(--yellow);
 }
-header, nav a, main {
+header, nav a, main, #girls {
         background-color: var(--blue);
         border-style: solid;
         border-color: var(--yellow);
@@ -64,28 +64,30 @@ main {
         margin-top: 246px;
 }
 #girls {
+        top: 0px;
+        left: 0px;
         height: 0px;
+        border: none;
+        background: none;
+        box-shadow: none;
 }
 .chiaki {
         position: relative;
         top: 120px;
-        left: 700px;
+        left: -100px;
         width: 100px;
-        z-index: 3;
 }
 .kurumi {
         position: relative;
         top: 410px;
-        right: -1630px;
+        right: -830px;
         width: 100px;
-        z-index: 3;
         transform: rotate(7deg);
 }
 .sakina {
         position: relative;
-        top: 650px;
-        left: 500px;
+        top: 700px;
+        left: -280px;
         width: 100px;
-        z-index: 3;
         transform: rotate(-7deg);
 }
