@@ -23,7 +23,7 @@ dd:nth-of-type(4n) {
 .container img {
         height: 220px;
 }
-img {
+.img-container img {
         box-shadow: 5px 5px black;
 }
 h4 {
