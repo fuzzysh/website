@@ -6,12 +6,10 @@
         box-shadow: 5px 5px black;
         padding: 10px;
         width: 250px;
-        height: 200px;
+        height: 184px;
+        background-position: top center;
+        background-size: cover;
 
-}
-.shrine-card dt {
-        margin-left: 10px;
-        font-size: 1.1em;
 }
 .shrine-card dd {
         margin-top: 5px;
@@ -19,6 +17,8 @@
 }
 a dt {
         color: var(--yellow);
+        margin-left: 10px;
+        font-size: 1.1em;
 }
 a dd {
         color: var(--yellow);
@@ -28,5 +28,5 @@ dl {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        gap: 17px 0px;
+        gap: 13px 0px;
 }
