@@ -1,7 +1,7 @@
 .columns-headings {
         display: flex;
         justify-content: space-around;
-        margin-bottom: -45px;
+        margin-bottom: -35px;
         font-size: 1.3em;
 }
 .scrolling-columns {
@@ -10,7 +10,7 @@
 }
 .scrolling-columns section {
         width: 300px;
-        height: 496px;
+        height: 490px;
         padding: 10px;
         overflow-y: auto;
         overflow-x: hidden;
