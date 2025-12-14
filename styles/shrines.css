@@ -1,0 +1,24 @@
+.shrine-card {
+        border-style: solid;
+        border-color: var(--yellow);
+        border-radius: 15px;
+        margin-bottom: 10px;
+        box-shadow: 5px 5px black;
+        width: 65%;
+        padding: 10px;
+
+}
+.shrine-card dt {
+        margin-left: 10px;
+        font-size: 1.1em;
+}
+.shrine-card dd {
+        margin-top: 5px;
+        margin-bottom: 5px;
+}
+a dt {
+        color: var(--yellow);
+}
+a dd {
+        color: var(--yellow);
+}
