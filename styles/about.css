@@ -1,7 +1,8 @@
 .columns-headings {
         display: flex;
         justify-content: space-around;
-        margin-bottom: -20px;
+        margin-bottom: -35px;
+        font-size: 1.3em;
 }
 .scrolling-columns {
         display: flex;
@@ -16,8 +17,18 @@
 }
 dt {
         font-weight: bold;
+        margin-top: 3px;
+        margin-left: 5px;
+        font-style: italic;
 }
 dd {
         margin-bottom: 15px;
-        margin-left: 15px;
+        margin-left: 20px;
+}
+.about-card {
+        border-style: solid;
+        border-color: var(--yellow);
+        border-radius: 15px;
+        margin-bottom: 10px;
+        box-shadow: 5px 5px black;
 }
