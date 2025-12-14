@@ -30,6 +30,7 @@ header {
         background-origin: border-box;
 }
 nav {
+        position: relative;
         text-align: center;
 }
 a {
