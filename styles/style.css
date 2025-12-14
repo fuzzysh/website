@@ -58,6 +58,8 @@ header, nav a, main, #girls {
 main {
         height: 750px;
         overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
         
 }
 .center-column {
@@ -70,7 +72,8 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 246px;
+        margin-top: 97px;
+        margin-top: auto;
 }
 #girls {
         height: 0px;
