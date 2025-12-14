@@ -1,8 +1,10 @@
 .columns-headings {
         display: flex;
         justify-content: space-around;
-        margin-bottom: -35px;
         font-size: 1.3em;
+}
+.columns-headings h4 {
+        margin-bottom: -3px;
 }
 .scrolling-columns {
         display: flex;
@@ -14,6 +16,9 @@
         padding: 10px;
         overflow-y: auto;
         overflow-x: hidden;
+}
+dl {
+        margin: 0px;
 }
 dt {
         font-weight: bold;
