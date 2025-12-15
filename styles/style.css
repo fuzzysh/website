@@ -91,7 +91,7 @@ main {
 .kurumi {
         position: relative;
         top: 410px;
-        right: -830px;
+        left: 830px;
         width: 100px;
         transform: rotate(7deg);
 }
