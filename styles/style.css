@@ -115,3 +115,9 @@ main {
         margin: 1px;
         background-color: rgba(0, 0, 0, 0.0);
 }
+@media only screen and (max-device-width: 1000px) and (orientation: portrait) 
+{
+        header, nav a, main, #girls {
+                width: 500px;
+        }
+}
