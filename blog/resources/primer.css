@@ -1,19 +1,13 @@
-dl {
-        margin-left: 20px;
-}
-dt {
+h3 {
         font-weight: bold;
-        font-size: 1.2em;
-        margin-top: 20px;
+        margin-top: 10px;
         margin-bottom: 10px;
+        margin-left: 1px;
 }
-dd {
+li {
         display: list-item;
         list-style-type: disc;
         line-height: 32px;
-}
-dd:nth-of-type(4n) {
-        margin-bottom: 15px;
 }
 .container {
         display: flex;
@@ -43,4 +37,7 @@ h4 {
         margin: 15px;
         padding: 10px;
         padding-left: 30px;
+}
+span{
+        color: #00ffb7;
 }
