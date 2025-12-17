@@ -10,7 +10,7 @@
         margin-bottom: 11px;
         padding-left: 7px;
         text-shadow: 2px 2px black;
-        box-shadow: 5px 5px black;
+        box-shadow: 7px 7px black;
         outline: none;
 
 }
@@ -39,7 +39,7 @@ input[type=submit] {
         border-color: var(--yellow);
         border-radius: 15px;
         text-shadow: 2px 2px black;
-        box-shadow: 5px 5px black;
+        box-shadow: 7px 7px black;
         margin-left: 10.5px;
         width: 100px;
         height: 35px;
@@ -64,7 +64,7 @@ input[type=submit] {
         border-color: var(--yellow);
         border-radius: 15px;
         text-shadow: 2px 2px black;
-        box-shadow: 5px 5px black;
+        box-shadow: 7px 7px black;
         margin-left: 100px;
         margin-right: 100px;
         margin-bottom: 20px;
