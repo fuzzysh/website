@@ -54,6 +54,10 @@ input[type=submit] {
 #guestbooks___guestbook-messages-container {
         height: 364px;
         overflow-y: auto;
+        width: 715px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 15px;
 
 }
 .guestbook-message {
@@ -65,8 +69,6 @@ input[type=submit] {
         border-radius: 15px;
         text-shadow: 2px 2px black;
         box-shadow: 7px 7px black;
-        margin-left: 100px;
-        margin-right: 100px;
         margin-bottom: 20px;
 
 }
