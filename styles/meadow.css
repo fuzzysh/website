@@ -37,7 +37,7 @@ input[type=submit] {
         background-color: var(--blue);
         border-style: solid;
         border-color: var(--yellow);
-        border-radius: 15px;
+        border-radius: 12px;
         text-shadow: 2px 2px black;
         box-shadow: 7px 7px black;
         margin-left: 10.5px;
