@@ -1,30 +1,80 @@
-.guestbooks___input-container input {
+.guestbooks___input-container input, textarea {
+        color: var(--yellow);
+        font-family: Comic Relief;
+        background-color: var(--blue);
         border-style: solid;
-        border-color: black;
-        min-height: 1.5em;
-        font-size: 12pt;
-        margin-bottom: 5px;
+        border-color: var(--yellow);
+        border-radius: 15px;
+        border-width: 3px;
         margin-left: 10.5px;
+        margin-bottom: 11px;
+        padding-left: 7px;
+        text-shadow: 2px 2px black;
+        box-shadow: 5px 5px black;
+        outline: none;
+
+}
+textarea::placeholder, .guestbooks___input-container input::placeholder {
+        color: var(--yellow);
+        font-family: Comic Relief;
+        text-shadow: 2px 2px black;
+
+}
+.guestbooks___input-container input {
+        font-size: 1em;
+        max-width: 200px;
+        min-height: 1.8em;
 }
 textarea {
-        min-height: 100px;
-        font-family: sans-serif;
-        font-size: 12pt;
-        border-style: solid;
-        border-color: black;
-        margin-bottom: 5px;
-        margin-left: 10.5px;
+        font-size: 1em;
+        min-height: 80px;
+        width: 700px;
 }
 input[type=submit] {
-        background: white;
+        color: var(--yellow);
+        font-family: Comic Relief;
+        font-size: 1em;
+        background-color: var(--blue);
         border-style: solid;
-        border-color: black;
-        height: 35px;
-        width: 65px;
+        border-color: var(--yellow);
+        border-radius: 15px;
+        text-shadow: 2px 2px black;
+        box-shadow: 5px 5px black;
         margin-left: 10.5px;
+        width: 100px;
+        height: 35px;
+        cursor: grab;
 }    
-.sheet {
-        height: 387px;
-        overflow-y: auto;
+#guestbooks___guestbook-messages-header {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 10.5px;
+        font-size: 1.4em;
 }
-  
+#guestbooks___guestbook-messages-container {
+        height: 364px;
+        overflow-y: auto;
+
+}
+.guestbook-message {
+        color: var(--yellow);
+        font-family: Comic Relief;
+        background-color: var(--blue);
+        border-style: solid;
+        border-color: var(--yellow);
+        border-radius: 15px;
+        text-shadow: 2px 2px black;
+        box-shadow: 5px 5px black;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 20px;
+
+}
+.guestbook-message p {
+        margin-left: 15px;
+        font-size: 1.1em;
+        margin-bottom: 5px;
+}
+.guestbook-message blockquote {
+        margin-top: 5px;
+}
