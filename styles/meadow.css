@@ -1,6 +1,6 @@
 .guestbooks___input-container input, textarea {
         color: var(--yellow);
-        font-family: Comic Relief;
+        font-family: ComicRelief;
         background-color: var(--blue);
         border-style: solid;
         border-color: var(--yellow);
@@ -16,7 +16,7 @@
 }
 textarea::placeholder, .guestbooks___input-container input::placeholder {
         color: var(--yellow);
-        font-family: Comic Relief;
+        font-family: ComicRelief;
         text-shadow: 2px 2px black;
 
 }
@@ -32,7 +32,7 @@ textarea {
 }
 input[type=submit] {
         color: var(--yellow);
-        font-family: Comic Relief;
+        font-family: ComicRelief;
         font-size: 1em;
         background-color: var(--blue);
         border-style: solid;
@@ -58,7 +58,7 @@ input[type=submit] {
 }
 .guestbook-message {
         color: var(--yellow);
-        font-family: Comic Relief;
+        font-family: ComicRelief;
         background-color: var(--blue);
         border-style: solid;
         border-color: var(--yellow);
