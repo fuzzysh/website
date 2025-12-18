@@ -14,3 +14,7 @@ main img {
 p, main img {
         margin-inline: auto;
 }
+#post-tags {
+        display: flex;
+        gap: 40px;
+}
