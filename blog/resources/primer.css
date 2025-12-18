@@ -1,3 +1,13 @@
+#post-tags {
+        display: flex;
+        gap: 10px;
+}
+main {
+        text-transform: none;
+}
+p {
+        margin-top: 0px;
+}
 h3 {
         font-weight: bold;
         margin-top: 10px;
