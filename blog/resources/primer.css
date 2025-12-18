@@ -22,7 +22,7 @@ li {
 .container {
         display: flex;
         flex-direction: row;
-        margin-bottom: 20px;
+        margin-block: auto;
 }
 .container img {
         height: 220px;
