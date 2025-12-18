@@ -5,7 +5,7 @@ p {
         max-inline-size: 60ch;
 }
 main img {
-        max-inline-size: 60%;
+        inline-size: 55%;
         border-style: solid;
         border-color: var(--yellow);
         border-radius: 15px;
