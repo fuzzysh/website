@@ -57,11 +57,11 @@ const posts = [
 //	"filename": `2025-04-01-spring-primer`,
 //	"tags": [`otaku`, `primer`],
 //},
-//{
-//        "title": `Fuzzy's 2026 Winter Anime Season Primer`,
-//        "filename": `2025-12-20-winter-primer`,
-//        "tags": [`otaku`, `primer`],
-//},
+{
+        "title": `Fuzzy's 2026 Winter Anime Season Primer`,
+        "filename": `2025-12-19-winter-primer`,
+        "tags": [`otaku`, `primer`],
+},
 {
         "title": `Fuzzy's 2025 Fall Anime Season Primer`,
         "filename": `2025-09-17-fall-primer`,
