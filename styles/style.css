@@ -7,6 +7,11 @@
         src: 
         url("../media/fonts/ComicRelief-Regular.woff2");
 }
+::selection {
+        color: var(--blue);
+        background-color: var(--yellow);
+        text-shadow: 2px 2px white;
+}
 body {
         font-family: ComicRelief, sans-serif;
         font-weight: bold;
