@@ -8,6 +8,9 @@ main {
 p {
         margin-top: 0px;
 }
+p:first-of-type {
+        margin-bottom: 0px;
+}
 h3 {
         font-weight: bold;
         margin-top: 10px;
@@ -24,6 +27,9 @@ h4 {
         margin-top: 50px;
         padding: 0;
         font-size: 1.2em;
+}
+h4:first-of-type {
+        margin-top: 15px;
 }
 h5 {
         font-size: 1em;
