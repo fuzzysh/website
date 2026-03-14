@@ -2,15 +2,22 @@
 title: "fuzzy's blog"
 templateEngine: 'njk'
 layout: 'layouts/base.html'
+style: 
+        - '/styles/blog-list.css'
 permalink: '/blog.html'
 ---
 <article>
         <h3>Welcome to my blog!</h3>
         <p>Hi! I'm hoping to write my thoughts on manga and anime here. I'll be highlighting manga and anime I love, writing about stuff I'm looking forward to and gushing about the minutiae of everything I love!</p>
-        <h3>Recent Posts</h3>
+        <h3>Post History</h3>
+        <div class = "blog-scroll">
         {% for post in collections.post | reverse %}
-                <li>{{ post.date.toLocaleDateString ( 'en-CA' ) }} - <a href="{{ post.url }}">{{ post.data.title }}</a></li>
+                <li>
+                        <span class="blog-date">{{ post.date.toLocaleDateString ( 'en-CA' ) }}</span>
+                        <a href="{{ post.url }}">{{ post.data.title }}</a>
+                </li>
         {% endfor %}
+        </div>
 </article>
 
 

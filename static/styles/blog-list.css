@@ -1,0 +1,16 @@
+li {
+        display: flex;
+        flex-direction: column;
+        border-style: solid;
+        border-color: var(--yellow);
+        border-radius: 15px;
+        box-shadow: 10px 10px black;
+        padding: 20px;
+        margin-block: 20px;
+        margin-inline: auto;
+        inline-size: 600px;
+}
+.blog-scroll {
+        overflow-y: auto;
+        block-size: 546px;
+}
