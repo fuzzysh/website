@@ -8,9 +8,11 @@ li {
         padding: 20px;
         margin-block: 20px;
         margin-inline: auto;
-        inline-size: 600px;
 }
 .blog-scroll {
         overflow-y: auto;
         block-size: 546px;
+        inline-size: 617px;
+        margin-inline: auto;
+        padding-right: 17px;
 }
