@@ -1,0 +1,32 @@
+---
+title: "fuzzy's guestbook"
+layout: 'layouts/base.html'
+style: 
+        - 'styles/meadow.css'
+permalink: '/guestbook.html'
+---
+<h3>sign my guestbook!</h3>
+<script async src="https://guestbooks.meadow.cafe/resources/js/embed_script/399/script.js"></script> 
+<div id="guestbooks___guestbook-form-container">
+        <form id="guestbooks___guestbook-form" action="https://guestbooks.meadow.cafe/guestbook/399/submit" method="post">
+                <div class="guestbooks___input-container">
+                        <input placeholder="Name" type="text" id="name" name="name" required>
+                </div>
+                <div class="guestbooks___input-container">
+                        <input placeholder="Website (optional)" type="url" id="website" name="website">
+                </div>
+                <div id="guestbooks___challenge-answer-container"></div>  
+                <div class="guestbooks___input-container">
+                        <textarea placeholder="Message (plain text only)..." id="text" name="text" style="box-sizing: border-box; resize: vertical;" required></textarea>
+                </div>
+                <input type="submit" value="Submit">
+                <div id="guestbooks___error-message"></div>  
+        </form>
+</div>
+<section>
+        <h3 id="guestbooks___guestbook-messages-header">Messages</h3>
+        <div id="guestbooks___guestbook-messages-container"></div>  
+</section>
+<div id="guestbooks___guestbook-made-with" style="text-align: right;">
+        <small>Made with <a target="_blank" href="https://guestbooks.meadow.cafe">Guestbooks</a></small>
+</div>  

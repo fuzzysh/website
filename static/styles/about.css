@@ -1,0 +1,40 @@
+.columns-headings {
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.3em;
+}
+.columns-headings h4 {
+        margin-bottom: -3px;
+        margin-top: 17px;
+}
+.scrolling-columns {
+        display: flex;
+        justify-content: center;
+}
+.scrolling-columns section {
+        width: 300px;
+        height: 490px;
+        padding: 10px;
+        overflow-y: auto;
+        overflow-x: hidden;
+}
+dl {
+        margin: 0px;
+}
+dt {
+        font-weight: bold;
+        margin-top: 3px;
+        margin-left: 5px;
+        font-style: italic;
+}
+dd {
+        margin-bottom: 15px;
+        margin-left: 20px;
+}
+.about-card {
+        border-style: solid;
+        border-color: var(--yellow);
+        border-radius: 15px;
+        margin-bottom: 10px;
+        box-shadow: 5px 5px black;
+}

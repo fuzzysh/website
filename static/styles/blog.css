@@ -1,0 +1,25 @@
+main {
+        text-transform: none;
+}
+p {
+        max-inline-size: 60ch;
+}
+h3 {
+        max-inline-size: 60ch;
+        margin-inline: auto;
+        margin-bottom: -15px;
+}
+main img {
+        inline-size: 55%;
+        border-style: solid;
+        border-color: var(--yellow);
+        border-radius: 15px;
+        box-shadow: 8px 8px black;
+}
+p, main img {
+        margin-inline: auto;
+}
+#post-tags {
+        display: flex;
+        gap: 40px;
+}

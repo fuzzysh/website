@@ -1,0 +1,20 @@
+main {
+        text-transform: none;
+}
+h4 {
+        margin-bottom: 15px;
+}
+p {
+        margin-top: 0px;
+}
+#post-tags {
+        display: flex;
+        gap: 10px;
+}
+.blog-image-container {
+        display: flex;
+        justify-content: center;
+}
+.blog-image {
+        width: 50%;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>{{ title }}</title>
+                <link href="/media/favicon/rando2.gif" rel="icon" type="img/x-icon">
+                <link href="/styles/style.css" rel="stylesheet">
+                {% if style %}
+                        {% for css in style %}
+                                <link href="{{ css }}" rel="stylesheet">
+                        {% endfor %}
+                {% endif %}
+        </head>
+        <body>
+                <div id="girls">
+                        <img src="/media/floaters/chiaki.png" class="chiaki" alt="Chiaki from Null Meta">
+                        <img src="/media/floaters/kurumi.png" class="kurumi" alt="Kurumi from Null Meta">
+                        <img src="/media/floaters/sakina.png" class="sakina" alt="Sakina from Null Meta">
+                </div>
+                <header>
+                        <h1>Hi, I'm fuzzy!</h1>
+                        <h2>well-behaved otaku thing</h2>
+                </header>
+                <nav>
+                        <a href="/index.html">Home</a>
+                        <a href="/about.html">About</a>
+                        <a href="/goodies.html">Goodies</a>
+                        <a href="/blog.html">Blog</a>
+                        <a href="/shrines.html">Shrines</a>
+                        <a href="/guestbook.html">Guestbook</a>
+                </nav>
+                <main>
+                        {{ content | safe }}
+                </main>
+        </body>
+</html>

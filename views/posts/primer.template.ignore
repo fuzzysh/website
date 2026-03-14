@@ -1,0 +1,11 @@
+---
+eleventyExcludeFromCollections: true
+title: "fuzzy's "
+layout: 'layouts/base.html'
+style: 
+        - '/styles/primer.css'
+permalink: 'posts/'
+date: 2026-12-31
+categories: ["primer","otaku"]
+tags: post
+---
