@@ -8,5 +8,4 @@ export const config = {
                 input: "views",
                 output: "dist"
         },
-        htmlTemplateEngine: 'njk',
 };
