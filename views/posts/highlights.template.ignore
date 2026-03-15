@@ -1,0 +1,49 @@
+---
+eleventyExcludeFromCollections: true
+title: "fuzzy's "
+layout: 'layouts/base.njk'
+style: 
+        - '/styles/primer.css'
+permalink: 'posts/'
+date: 2026-12-31
+categories: ["primer","otaku"]
+tags: post
+---
+<h1>fuzzy's XXXX anime highlights</h1>
+<h3><a href="https://addons.mozilla.org/en-US/firefox/addon/youtube-no-translation/">get the "Youtube No Translation" firefox add-on to automatically disable AI dubs in PVs </a></h3>
+<div class="primer-card">
+        <h3></h3>
+        <h5></h5>
+        <div class="container">
+                <div class="img-container">
+                        <img src="/media/blog/primer-posters/">
+                </div>
+                <div class="info-container">
+                        <ul>
+                                <li><span>Studio: </span></li>
+                                <li><span>Season: </span></li>
+                                <li><span>PV: </span><a href=""></a></li>
+                                <li><span>Why I liked it: </span></li>
+        </div>
+        
+</div>
+
+
+
+
+<div class="primer-card">
+        <h3></h3>
+        <h5></h5>
+        <div class="container">
+                <div class="img-container">
+                        <img src="/media/blog/primer-posters/">
+                </div>
+                <div class="info-container">
+                        <ul>
+                                <li><span>Studio: </span></li>
+                                <li><span>Season: </span></li>
+                                <li><span>PV: </span><a href=""></a></li>
+                                <li><span>Why I liked it: </span></li>
+        </div>
+        
+</div>
