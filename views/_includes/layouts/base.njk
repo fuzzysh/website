@@ -11,16 +11,9 @@
                                 <link href="{{ css }}" rel="stylesheet">
                         {% endfor %}
                 {% endif %}
+                <script src="/theme-wizard.js"></script>
         </head>
         <body>
-                <script>
-                                var library = {
-                                        "blellow" : "/styles/themes/blellow.css",
-                                        "boring" : "/styles/themes/boring.css",
-                                };
-                                window.themes.initialize(library);
-                                window.themes.set("blellow");
-                </script>
                 <div id="girls">
                         <img src="/media/floaters/chiaki.png" class="chiaki" alt="Chiaki from Null Meta">
                         <img src="/media/floaters/kurumi.png" class="kurumi" alt="Kurumi from Null Meta">
@@ -43,4 +36,13 @@
                         {{ content | safe }}
                 </main>
         </body>
+        <script>
+                        var library = {
+                                "blellow" : "/styles/themes/blellow.css",
+                                "boring (dark)" : "/styles/themes/boring.css",
+                                "boring (light)" : "/styles/themes/boring-light.css",
+                        };
+                        window.themes.initialize(library);
+                        window.themes.set("blellow");
+        </script>
 </html>
