@@ -1,6 +1,9 @@
 :root {
-        --blue: #0047FF;
-        --yellow: #ffed01;
+        --primary: #0047FF;
+        --secondary: #ffed01;
+        --link: pink;
+        --shadow: var(--shadow);
+        --inverted-shadow: white;
 }
 @font-face {
         font-family: ComicRelief;
@@ -8,17 +11,17 @@
         url("../media/fonts/ComicRelief-Regular.woff2");
 }
 ::selection {
-        color: var(--blue);
-        background-color: var(--yellow);
-        text-shadow: 2px 2px white;
+        color: var(--primary);
+        background-color: var(--secondary);
+        text-shadow: 2px 2px var(--inverted-shadow);
 }
 body {
         font-family: ComicRelief, sans-serif;
         font-weight: bold;
         text-transform: lowercase;
-        background-color: var(--yellow);
+        background-color: var(--secondary);
         opacity: 1;
-        background-image: linear-gradient(135deg, var(--blue) 25%, transparent 25%), linear-gradient(225deg, var(--blue) 25%, transparent 25%), linear-gradient(45deg, var(--blue) 25%, transparent 25%), linear-gradient(315deg, var(--blue) 25%, var(--yellow) 25%);
+        background-image: linear-gradient(135deg, var(--primary) 25%, transparent 25%), linear-gradient(225deg, var(--primary) 25%, transparent 25%), linear-gradient(45deg, var(--primary) 25%, transparent 25%), linear-gradient(315deg, var(--primary) 25%, var(--secondary) 25%);
         background-position: 40px 0, 40px 0, 0 0, 0 0;
         background-size: 80px 80px;
         background-repeat: repeat;
@@ -38,7 +41,7 @@ nav {
         text-align: center;
 }
 a {
-        color: pink;
+        color: var(--link);
         text-decoration: none;
 }
 a:hover {
@@ -46,20 +49,20 @@ a:hover {
 }
 nav a:active {
         text-decoration: none;
-        color: var(--yellow);
+        color: var(--secondary);
 }
 header, nav a, main, #girls {
         font-size: 1.2em;
-        background-color: var(--blue);
+        background-color: var(--primary);
         border-style: solid;
-        border-color: var(--yellow);
+        border-color: var(--secondary);
         border-radius: 25px;
-        color: var(--yellow);
+        color: var(--secondary);
         padding: 10px;
         inline-size: 950px;
         margin-inline: auto;
-        box-shadow: 10px 10px black;
-        text-shadow: 2px 2px black;
+        box-shadow: 10px 10px var(--shadow);
+        text-shadow: 2px 2px var(--shadow);
 }
 main {
         block-size: 750px;
