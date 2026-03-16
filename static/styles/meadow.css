@@ -1,23 +1,23 @@
 .guestbooks___input-container input, textarea {
-        color: var(--yellow);
+        color: var(--secondary);
         font-family: ComicRelief;
-        background-color: var(--blue);
+        background-color: var(--primary);
         border-style: solid;
-        border-color: var(--yellow);
+        border-color: var(--secondary);
         border-radius: 15px;
         border-width: 3px;
         margin-left: 10.5px;
         margin-bottom: 11px;
         padding-left: 7px;
-        text-shadow: 2px 2px black;
-        box-shadow: 7px 7px black;
+        text-shadow: 2px 2px var(--shadow);
+        box-shadow: 7px 7px var(--shadow);
         outline: none;
 
 }
 textarea::placeholder, .guestbooks___input-container input::placeholder {
-        color: var(--yellow);
+        color: var(--secondary);
         font-family: ComicRelief;
-        text-shadow: 2px 2px black;
+        text-shadow: 2px 2px var(--shadow);
 
 }
 .guestbooks___input-container input {
@@ -31,15 +31,15 @@ textarea {
         width: 700px;
 }
 input[type=submit] {
-        color: var(--yellow);
+        color: var(--secondary);
         font-family: ComicRelief;
         font-size: 1em;
-        background-color: var(--blue);
+        background-color: var(--primary);
         border-style: solid;
-        border-color: var(--yellow);
+        border-color: var(--secondary);
         border-radius: 12px;
-        text-shadow: 2px 2px black;
-        box-shadow: 7px 7px black;
+        text-shadow: 2px 2px var(--shadow);
+        box-shadow: 7px 7px var(--shadow);
         margin-left: 10.5px;
         width: 100px;
         height: 35px;
@@ -61,14 +61,14 @@ input[type=submit] {
 
 }
 .guestbook-message {
-        color: var(--yellow);
+        color: var(--secondary);
         font-family: ComicRelief;
-        background-color: var(--blue);
+        background-color: var(--primary);
         border-style: solid;
-        border-color: var(--yellow);
+        border-color: var(--secondary);
         border-radius: 15px;
-        text-shadow: 2px 2px black;
-        box-shadow: 7px 7px black;
+        text-shadow: 2px 2px var(--shadow);
+        box-shadow: 7px 7px var(--shadow);
         margin-bottom: 20px;
 
 }

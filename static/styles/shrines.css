@@ -1,9 +1,9 @@
 .shrine-card {
         border-style: solid;
-        border-color: var(--yellow);
+        border-color: var(--secondary);
         border-radius: 15px;
         margin-bottom: 10px;
-        box-shadow: 5px 5px black;
+        box-shadow: 5px 5px var(--shadow);
         padding: 10px;
         width: 250px;
         height: 184px;
@@ -16,12 +16,12 @@
         margin-bottom: 5px;
 }
 a dt {
-        color: var(--yellow);
+        color: var(--secondary);
         margin-left: 10px;
         font-size: 1.1em;
 }
 a dd {
-        color: var(--yellow);
+        color: var(--secondary);
 }
 
 dl {

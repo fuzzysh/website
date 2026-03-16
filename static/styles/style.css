@@ -1,10 +1,3 @@
-:root {
-        --primary: #0047FF;
-        --secondary: #ffed01;
-        --link: pink;
-        --shadow: var(--shadow);
-        --inverted-shadow: white;
-}
 @font-face {
         font-family: ComicRelief;
         src: 
@@ -21,7 +14,7 @@ body {
         text-transform: lowercase;
         background-color: var(--secondary);
         opacity: 1;
-        background-image: linear-gradient(135deg, var(--primary) 25%, transparent 25%), linear-gradient(225deg, var(--primary) 25%, transparent 25%), linear-gradient(45deg, var(--primary) 25%, transparent 25%), linear-gradient(315deg, var(--primary) 25%, var(--secondary) 25%);
+        background-image: var(--background);
         background-position: 40px 0, 40px 0, 0 0, 0 0;
         background-size: 80px 80px;
         background-repeat: repeat;

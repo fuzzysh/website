@@ -18,10 +18,10 @@ h3 {
         margin-left: 1px;
 }
 h4 {
-        color: var(--blue);
-        background-color: var(--yellow);
+        color: var(--primary);
+        background-color: var(--secondary);
         border-radius: 25px;
-        text-shadow: 2px 2px white;
+        text-shadow: 2px 2px var(--inverted-shadow);
         text-align: center;
         margin: 0px;
         margin-top: 50px;
@@ -29,9 +29,9 @@ h4 {
         font-size: 1.2em;
 }
 h4::selection {
-        color: var(--yellow);
-        background-color: var(--blue);
-        text-shadow: 2px 2px black;
+        color: var(--secondary);
+        background-color: var(--primary);
+        text-shadow: 2px 2px var(--shadow);
 }
 h4:first-of-type {
         margin-top: 15px;
@@ -49,7 +49,7 @@ li {
 .primer-card {
         border-style: solid;
         border-radius: 25px;
-        box-shadow: 7px 7px black;
+        box-shadow: 7px 7px var(--shadow);
         margin: 15px;
         padding: 10px;
         padding-left: 30px;
@@ -64,7 +64,7 @@ li {
         height: 220px;
 }
 .img-container img {
-        box-shadow: 6px 6px black;
+        box-shadow: 6px 6px var(--shadow);
 }
 span{
         color: #00ffb7;

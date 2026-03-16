@@ -2,9 +2,9 @@ li {
         display: flex;
         flex-direction: column;
         border-style: solid;
-        border-color: var(--yellow);
+        border-color: var(--secondary);
         border-radius: 15px;
-        box-shadow: 10px 10px black;
+        box-shadow: 10px 10px var(--shadow);
         padding: 20px;
         margin-block: 20px;
         margin-inline: auto;

@@ -12,7 +12,7 @@ h3 {
 main img {
         inline-size: 55%;
         border-style: solid;
-        border-color: var(--yellow);
+        border-color: var(--secondary);
         border-radius: 15px;
         box-shadow: 8px 8px black;
 }

@@ -33,7 +33,7 @@ dd {
 }
 .about-card {
         border-style: solid;
-        border-color: var(--yellow);
+        border-color: var(--secondary);
         border-radius: 15px;
         margin-bottom: 10px;
         box-shadow: 5px 5px black;
