@@ -1,7 +1,8 @@
 :root {
-        --primary: black;
-        --secondary: white;
-        --link: purple;
-        --shadow: white;
-        --inverted-shadow: black;
+        --primary: #191919;
+        --secondary: #f5f5f5;
+        --link: pink;
+        --shadow: #191919;
+        --inverted-shadow: #f5f5f5;
+        --background: linear-gradient(135deg, var(--primary) 25%, transparent 25%), linear-gradient(225deg, var(--primary) 25%, transparent 25%), linear-gradient(45deg, var(--primary) 25%, transparent 25%), linear-gradient(315deg, var(--primary) 25%, var(--primary) 25%);;
 }

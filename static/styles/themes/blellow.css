@@ -4,4 +4,5 @@
         --link: pink;
         --shadow: black;
         --inverted-shadow: white;
+        --background: linear-gradient(135deg, var(--primary) 25%, transparent 25%), linear-gradient(225deg, var(--primary) 25%, transparent 25%), linear-gradient(45deg, var(--primary) 25%, transparent 25%), linear-gradient(315deg, var(--primary) 25%, var(--secondary) 25%);
 }
