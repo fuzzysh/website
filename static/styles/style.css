@@ -108,6 +108,16 @@ main {
         flex-wrap: wrap;
         justify-content: flex-start;
 }
+select {
+        background-color: var(--primary);
+        color: var(--secondary);
+        border: none;
+        font-family: ComicRelief;
+        font-size: 1em;
+        font-weight: bold;
+        text-shadow: 2px 2px var(--shadow);
+        text-align: right;
+}
 
 .buttons>img {
         inline-size: 88px;
