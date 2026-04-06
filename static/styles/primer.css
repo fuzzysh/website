@@ -66,6 +66,9 @@ li {
 .img-container img {
         box-shadow: 6px 6px black;
 }
+ul {
+        margin: 0px;
+}
 span{
         color: #00ffb7;
 }
