@@ -2,10 +2,10 @@ main {
         text-transform: none;
 }
 p {
-        max-inline-size: 60ch;
+        inline-size: 60ch;
 }
 h3 {
-        max-inline-size: 60ch;
+        inline-size: 60ch;
         margin-inline: auto;
         margin-bottom: -15px;
 }
