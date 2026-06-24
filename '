@@ -1,0 +1,19 @@
+---
+title: fuzzy's blog
+style: <link href="/css/blog-list.css" rel="stylesheet"> 
+---
+<article>
+        <h3>Welcome to my blog!</h3>
+        <p>Hi! I'm hoping to write my thoughts on manga and anime here. I'll be highlighting manga and anime I love, writing about stuff I'm looking forward to and gushing about the minutiae of everything I love!</p>
+        <h3>Post History</h3>
+        <div class = "blog-scroll">
+        ${ tacs.dir.get('post').map(
+        li => `<li>
+                ${ li.date.toLocaleDateString ( 'en-CA' ) }
+                <a href="${ li.link }">${ li.title }</a>
+                </li>`
+        ) }
+        </div>
+</article>
+
+

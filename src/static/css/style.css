@@ -1,0 +1,128 @@
+:root {
+        --blue: #0047FF;
+        --yellow: #ffed01;
+}
+@font-face {
+        font-family: ComicRelief;
+        src: 
+        url("../media/fonts/ComicRelief-Regular.woff2");
+}
+::selection {
+        color: var(--blue);
+        background-color: var(--yellow);
+        text-shadow: 2px 2px white;
+}
+body {
+        font-family: ComicRelief, sans-serif;
+        font-weight: bold;
+        text-transform: lowercase;
+        background-color: var(--yellow);
+        opacity: 1;
+        background-image: linear-gradient(135deg, var(--blue) 25%, transparent 25%), linear-gradient(225deg, var(--blue) 25%, transparent 25%), linear-gradient(45deg, var(--blue) 25%, transparent 25%), linear-gradient(315deg, var(--blue) 25%, var(--yellow) 25%);
+        background-position: 40px 0, 40px 0, 0 0, 0 0;
+        background-size: 80px 80px;
+        background-repeat: repeat;
+}
+p {
+        line-height: 1.3;
+}
+header {
+        text-align: right;
+        background-image: url(../media/bg/yuki1.png);
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-origin: border-box;
+}
+nav {
+        position: relative;
+        text-align: center;
+}
+a {
+        color: pink;
+        text-decoration: none;
+}
+a:hover {
+        text-decoration: wavy underline;
+}
+nav a:active {
+        text-decoration: none;
+        color: var(--yellow);
+}
+header, nav a, main, #girls {
+        font-size: 1.2em;
+        background-color: var(--blue);
+        border-style: solid;
+        border-color: var(--yellow);
+        border-radius: 25px;
+        color: var(--yellow);
+        padding: 10px;
+        inline-size: 950px;
+        margin-inline: auto;
+        box-shadow: 10px 10px black;
+        text-shadow: 2px 2px black;
+}
+main {
+        block-size: 750px;
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+        
+}
+.center-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.bottom-center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 97px;
+        margin-top: auto;
+}
+#girls {
+        block-size: 0px;
+        border: none;
+        background: none;
+        box-shadow: none;
+}
+.chiaki {
+        position: relative;
+        top: 120px;
+        left: -100px;
+        inline-size: 100px;
+}
+.kurumi {
+        position: relative;
+        top: 410px;
+        left: 830px;
+        inline-size: 100px;
+        transform: rotate(7deg);
+}
+.sakina {
+        position: relative;
+        top: 700px;
+        left: -300px;
+        inline-size: 100px;
+        transform: rotate(-7deg);
+}
+.buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+}
+
+.buttons>img {
+        inline-size: 88px;
+        block-size: 31px;
+        image-rendering: pixelated;
+        margin: 1px;
+        background-color: rgba(0, 0, 0, 0.0);
+}
+@media only screen and (max-device-width: 1000px) and (orientation: portrait) 
+{
+        header, nav a, main, #girls {
+                inline-size: 500px;
+        }
+}

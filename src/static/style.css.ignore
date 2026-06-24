@@ -1,0 +1,47 @@
+:root {
+        --background-color: gray;
+        --border: #719611;
+        --text-color: white;
+
+        --border-width: 4px;
+}
+#girls {
+        visibility: hidden;
+        height: 0;
+}
+html {
+        background-color: #222;
+        color: var(--text-color);
+}
+body {
+        inline-size: 122ch;
+        margin-top: 30px;
+        margin-left: 50px;
+}
+header {
+        background-color: var(--background-color);
+        padding: 10px;
+        border-style: solid;
+        border-width: var(--border-width);
+        border-bottom-width: 0px;
+        border-color: var(--border);
+}
+nav {
+        background-color: var(--background-color);
+        border-style: solid;
+        border-width: var(--border-width);
+        border-bottom-width: 0px;
+        border-color: var(--border);
+        padding: 5px;
+}
+nav a {
+        padding-inline: 5px;
+        color: var(--text-color);
+}
+main {
+        background-color: var(--background-color);
+        padding: 10px;
+        border-style: solid;
+        border-width: var(--border-width);
+        border-color: var(--border);
+}

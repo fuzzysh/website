@@ -1,0 +1,16 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "My static site",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "publican.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "publican": "^0.12.1",
+    "publican.lib": "^0.1.2"
+  }
+}
