@@ -1,0 +1,26 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/fuzzysh/website#readme",
+  "bugs": {
+    "url": "https://github.com/fuzzysh/website/issues",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuzzysh/website.git"
+  },
+  "license": "GPL-3.0",
+  "author": "",
+  "type": "commonjs",
+  "main": "publican.config.js",
+  "type": "module",
+  "main": "publican.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "publican": "^0.12.1",
+    "publican.lib": "^0.1.2"
+  }
+}
