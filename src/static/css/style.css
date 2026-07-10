@@ -46,7 +46,6 @@ h1 {
 nav a {
         color: var(--border-color);
         background: linear-gradient(var(--gradient-1), var(--gradient-2));
-        text-decoration: none;
         padding: 12px;
         padding-right: 7px;
         margin-bottom: 10px;
@@ -54,9 +53,6 @@ nav a {
         border-color: var(--border-color);
         border-style: solid;
         box-shadow: 10px 10px black;
-}
-nav a:hover {
-        text-decoration: underline wavy;
 }
 main {
         writing-mode: horizontal-tb;
@@ -75,6 +71,9 @@ main {
 a {
         color: #C7EF00;
         text-decoration: none;
+}
+a:hover {
+        text-decoration: wavy underline;
 }
 .center-column {
         display: flex;
