@@ -13,7 +13,7 @@
 }
 .scrolling-columns section {
         width: 300px;
-        height: 490px;
+        height: 535px;
         padding: 10px;
         overflow-y: auto;
         overflow-x: hidden;
@@ -33,8 +33,9 @@ dd {
 }
 .about-card {
         border-style: solid;
-        border-color: var(--yellow);
+        border-color: var(--border-color);
         border-radius: 15px;
         margin-bottom: 10px;
         box-shadow: 5px 5px black;
+        background: linear-gradient(var(--gradient-1), var(--gradient-2));
 }
