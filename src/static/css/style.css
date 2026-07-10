@@ -115,3 +115,52 @@ a:hover {
         inline-size: 250px;
         transform: rotate(6deg);
 }
+@media (max-width: 1360px) {
+        body {
+                gap: 30px;
+                margin-top: 10px;
+                margin-left: -20px;
+        }
+        main {
+                width: 960px;
+                height: 665px;
+
+        }
+        .chiaki {
+                top: 560px;
+                left: 170px;
+                inline-size: 150px;
+        }
+        .kurumi {
+                top: -155px;
+                left: 1175px;
+                inline-size: 150px;
+        }
+        .sakina {
+                top: 245px;
+                left: 1175px;
+                inline-size: 150px;
+        }
+}
+@media (max-width: 402px) {
+        body {
+                display: initial;
+                writing-mode: initial;
+        }
+        header {
+                height: 66px;
+                background-size: 18%, cover;
+                background-position: right bottom;
+        }
+        h1 {
+             margin-top: 8px;   
+             margin-left: 20px;
+             margin-right: 0;
+        }
+        nav {
+                overflow-x: hidden;
+        }
+        nav a {
+                padding: 0;
+        }
+}
