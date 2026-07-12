@@ -13,7 +13,10 @@
                         if (!styles) return '';
                         const paths = Array.isArray(styles) ? styles : [styles];
                         const hashes = tacs.cssHashes || {};
-                        return paths.map(p => `<link href="${p}?v=${ hashes[p] || '' }" rel="stylesheet">`).join('\n');
+                        return paths.map(p => {
+                                const fullPath = '/css/' + p;
+                                return `<link href="${fullPath}?v=${ hashes[fullPath] || '' }" rel="stylesheet">`;
+                        }).join('\n');
                 })() }
         </head>
         <body>
