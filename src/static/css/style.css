@@ -91,29 +91,45 @@ a:hover {
 }
 #girls {
         block-size: 0px;
+        inline-size: 0px;
+        border: none;
+        background: none;
+        box-shadow: none;
+}
+#kuromon {
+        block-size: 0px;
+        inline-size: 0px;
         border: none;
         background: none;
         box-shadow: none;
 }
 .chiaki {
-        position: relative;
-        top: 645px;
-        left: 159px;
+        position: absolute;
+        top: 690px;
+        left: 220px;
         inline-size: 250px;
 }
 .kurumi {
-        position: relative;
-        top: -282px;
-        left: 1240px;
+        position: absolute;
+        top: 25px;
+        left: 1285px;
         inline-size: 250px;
         transform: rotate(11deg);
 }
 .sakina {
-        position: relative;
-        top: 133px;
-        left: 1240px;
+        position: absolute;
+        top: 695px;
+        left: 1285px;
         inline-size: 250px;
         transform: rotate(6deg);
+}
+.kuromon {
+        position: absolute;
+        top: -8px;
+        left: 30px;
+        transform: rotate(-40deg);
+        inline-size: 100px;
+        z-index: -1;
 }
 @media (max-width: 1360px) {
         body {
@@ -127,19 +143,25 @@ a:hover {
 
         }
         .chiaki {
-                top: 560px;
-                left: 170px;
+                top: 570px;
+                left: 185px;
                 inline-size: 150px;
         }
         .kurumi {
-                top: -155px;
-                left: 1175px;
+                top: 5px;
+                left: 1185px;
                 inline-size: 150px;
         }
         .sakina {
-                top: 245px;
-                left: 1175px;
+                top: 570px;
+                left: 1185px;
                 inline-size: 150px;
+        }
+        .kuromon {
+                top: 0px;
+                left: 6px;
+                transform: rotate(-60deg);
+                inline-size: 50px;
         }
 }
 @media (max-width: 402px) {
