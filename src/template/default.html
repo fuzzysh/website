@@ -6,7 +6,15 @@
                 <title>${ data.title }</title>
                 <link href="/media/favicon/rando2.gif" rel="icon" type="img/x-icon">
                 ${ data.style }
-                <link href="/css/style.css" rel="stylesheet">
+                <link href="/css/style.css?v=${ tacs.cssHashes['/css/style.css'] }" rel="stylesheet">
+                
+                ${ (() => {
+                        const styles = data.extraStyles;
+                        if (!styles) return '';
+                        const paths = Array.isArray(styles) ? styles : [styles];
+                        const hashes = tacs.cssHashes || {};
+                        return paths.map(p => `<link href="${p}?v=${ hashes[p] || '' }" rel="stylesheet">`).join('\n');
+                })() }
         </head>
         <body>
                 <div id="girls">
