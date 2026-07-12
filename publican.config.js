@@ -41,7 +41,7 @@ publican.config.passThrough.add({ from: './src/static/', to: './' });
 publican.config.headingAnchor = false;
 publican.config.watch = true;
 tacs.config = {
-  domain: 'https://example.com'
+  domain: 'https://fuzzy.nekoweb.org'
 };
 // initialize publican.lib
 libInit(publican, tacs);
