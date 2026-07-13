@@ -43,6 +43,7 @@ publican.config.watch = true;
 tacs.config = {
   domain: 'https://fuzzy.nekoweb.org'
 };
+
 // initialize publican.lib
 libInit(publican, tacs);
 // optionally set the default language
@@ -51,4 +52,5 @@ tacs.lib.format.setLocale( 'en-CA' );
 tacs.cssHashes = cssHashes;
 
 // build site
+await publican.clean();
 await publican.build();
