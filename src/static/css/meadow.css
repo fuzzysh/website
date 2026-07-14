@@ -52,7 +52,7 @@ input[type=submit] {
         font-size: 1.4em;
 }
 #guestbooks___guestbook-messages-container {
-        height: 415px;
+        height: 388px;
         overflow-y: auto;
         width: 715px;
         margin-left: auto;
