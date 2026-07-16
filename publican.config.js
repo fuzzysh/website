@@ -1,12 +1,21 @@
 // imports
 import { Publican, tacs } from 'publican';
 import { libInit } from 'publican.lib';
+import * as fnFormat from './lib/format.js';
 import fs from 'fs';
 import crypto from 'crypto';
 import path from 'path';
 
 // create Publican object
 const publican = new Publican();
+
+// set global defaults
+tacs.config = tacs.config || {};
+tacs.config.language = 'en-CA';
+
+// append formatting functions
+tacs.fn = tacs.fn || {};
+tacs.fn.format = fnFormat;
 
 //cache-busting
 const cssDir = path.join(process.cwd(), 'src', 'static', 'css');
